@@ -1,0 +1,212 @@
+[0.095s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/image_proc': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.131s] UpdateCTestConfiguration  from :/home/bryan/Workspace/ros2_ws/build/image_proc/CTestConfiguration.ini
+[0.131s] Parse Config file:/home/bryan/Workspace/ros2_ws/build/image_proc/CTestConfiguration.ini
+[0.131s]    Site: bryan-VirtualBox
+[0.131s]    Build name: (empty)
+[0.133s]  Add coverage exclude regular expressions.
+[0.133s] Create new tag: 20260409-2330 - Experimental
+[0.133s] UpdateCTestConfiguration  from :/home/bryan/Workspace/ros2_ws/build/image_proc/CTestConfiguration.ini
+[0.133s] Parse Config file:/home/bryan/Workspace/ros2_ws/build/image_proc/CTestConfiguration.ini
+[0.133s] Test project /home/bryan/Workspace/ros2_ws/build/image_proc
+[0.133s] Constructing a list of tests
+[0.133s] Done constructing a list of tests
+[0.133s] Updating test list for fixtures
+[0.138s] Added 0 tests to meet fixture requirements
+[0.138s] Checking test dependency graph...
+[0.138s] Checking test dependency graph end
+[0.138s] test 1
+[0.138s]     Start 1: copyright
+[0.138s] 
+[0.138s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/copyright.xunit.xml" "--package-name" "image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/copyright.xunit.xml"
+[0.138s] 1: Test timeout computed to be: 200
+[0.226s] 1: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc':
+[0.226s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/copyright.xunit.xml
+[1.133s] 1: No problems found, checked 19 files
+[1.133s] 1: -- run_test.py: return code 0
+[1.133s] 1: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/copyright.xunit.xml'
+[1.134s] 1/8 Test #1: copyright ........................   Passed    0.99 sec
+[1.137s] test 2
+[1.137s]     Start 2: cppcheck
+[1.137s] 
+[1.137s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/cppcheck.xunit.xml" "--package-name" "image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/cppcheck.xunit.xml" "--include_dirs" "/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/include"
+[1.137s] 2: Test timeout computed to be: 300
+[1.355s] 2: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc':
+[1.355s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/cppcheck.xunit.xml --include_dirs /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/include
+[1.503s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[1.528s] 2: -- run_test.py: return code 0
+[1.529s] 2: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/cppcheck.xunit.xml'
+[1.553s] 2/8 Test #2: cppcheck .........................   Passed    0.41 sec
+[1.561s] test 3
+[1.562s]     Start 3: cpplint
+[1.562s] 
+[1.562s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/cpplint.xunit.xml" "--package-name" "image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/cpplint.xunit.xml"
+[1.562s] 3: Test timeout computed to be: 120
+[1.687s] 3: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc':
+[1.687s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/cpplint.xunit.xml
+[2.757s] 3: Using '--root=/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/include' argument
+[2.757s] 3: 
+[2.757s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/include/image_proc/crop_decimate.hpp
+[2.757s] 3: 
+[2.757s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/include/image_proc/crop_non_zero.hpp
+[2.781s] 3: 
+[2.786s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/include/image_proc/debayer.hpp
+[2.786s] 3: 
+[2.786s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/include/image_proc/edge_aware.hpp
+[2.786s] 3: 
+[2.786s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/include/image_proc/processor.hpp
+[2.786s] 3: 
+[2.786s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/include/image_proc/rectify.hpp
+[2.786s] 3: 
+[2.786s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/include/image_proc/resize.hpp
+[2.786s] 3: 
+[2.786s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/include/image_proc/utils.hpp
+[2.786s] 3: 
+[2.787s] 3: Using '--root=/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/src' argument
+[2.787s] 3: 
+[2.787s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/src/crop_decimate.cpp
+[2.787s] 3: 
+[2.787s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/src/crop_non_zero.cpp
+[2.787s] 3: 
+[2.787s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/src/debayer.cpp
+[2.787s] 3: 
+[2.787s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/src/edge_aware.cpp
+[2.787s] 3: 
+[2.787s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/src/image_proc.cpp
+[2.787s] 3: 
+[2.788s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/src/image_proc/processor.cpp
+[2.788s] 3: 
+[2.788s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/src/rectify.cpp
+[2.788s] 3: 
+[2.788s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/src/resize.cpp
+[2.788s] 3: 
+[2.788s] 3: Using '--root=/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/test' argument
+[2.788s] 3: 
+[2.788s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/test/rostest.cpp
+[2.788s] 3: 
+[2.788s] 3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/test/test_rectify.cpp
+[2.788s] 3: 
+[2.788s] 3: No problems found
+[2.892s] 3: -- run_test.py: return code 0
+[2.892s] 3: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/cpplint.xunit.xml'
+[2.892s] 3/8 Test #3: cpplint ..........................   Passed    1.25 sec
+[2.893s] test 4
+[2.893s]     Start 4: flake8
+[2.893s] 
+[2.893s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/flake8.xunit.xml" "--package-name" "image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/flake8.xunit.xml"
+[2.893s] 4: Test timeout computed to be: 60
+[3.386s] 4: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc':
+[3.389s] 4:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/flake8.xunit.xml
+[3.842s] 4: 
+[3.842s] 4: 1 files checked
+[3.843s] 4: No problems found
+[3.843s] 4: 
+[3.850s] 4: Checked files:
+[3.850s] 4: 
+[3.850s] 4: * ./launch/image_proc.launch.py
+[3.850s] 4: -- run_test.py: return code 0
+[3.850s] 4: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/flake8.xunit.xml'
+[3.875s] 4/8 Test #4: flake8 ...........................   Passed    1.07 sec
+[3.875s] test 5
+[3.877s]     Start 5: lint_cmake
+[3.877s] 
+[3.877s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/lint_cmake.xunit.xml" "--package-name" "image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/lint_cmake.xunit.xml"
+[3.877s] 5: Test timeout computed to be: 60
+[4.013s] 5: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc':
+[4.013s] 5:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/lint_cmake.xunit.xml
+[4.196s] 5: 
+[4.198s] 5: No problems found
+[4.198s] 5: -- run_test.py: return code 0
+[4.199s] 5: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/lint_cmake.xunit.xml'
+[4.332s] 5/8 Test #5: lint_cmake .......................   Passed    0.42 sec
+[4.332s] test 6
+[4.332s]     Start 6: pep257
+[4.332s] 
+[4.332s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/pep257.xunit.xml" "--package-name" "image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/pep257.xunit.xml"
+[4.332s] 6: Test timeout computed to be: 60
+[4.758s] 6: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc':
+[4.766s] 6:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/pep257.xunit.xml
+[5.345s] 6: checking ./launch/image_proc.launch.py
+[5.348s] 6: No problems found
+[5.377s] 6: -- run_test.py: return code 0
+[5.381s] 6: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/pep257.xunit.xml'
+[5.415s] 6/8 Test #6: pep257 ...........................   Passed    1.11 sec
+[5.415s] test 7
+[5.415s]     Start 7: uncrustify
+[5.415s] 
+[5.415s] 7: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/uncrustify.xunit.xml" "--package-name" "image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/uncrustify.xunit.xml"
+[5.415s] 7: Test timeout computed to be: 60
+[5.565s] 7: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc':
+[5.687s] 7:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/uncrustify.xunit.xml
+[5.821s] 7: No code style divergence in file 'include/image_proc/crop_decimate.hpp'
+[5.821s] 7: 
+[5.821s] 7: No code style divergence in file 'include/image_proc/crop_non_zero.hpp'
+[5.821s] 7: 
+[5.822s] 7: No code style divergence in file 'include/image_proc/debayer.hpp'
+[5.822s] 7: 
+[5.822s] 7: No code style divergence in file 'include/image_proc/edge_aware.hpp'
+[5.822s] 7: 
+[5.822s] 7: No code style divergence in file 'include/image_proc/processor.hpp'
+[5.822s] 7: 
+[5.822s] 7: No code style divergence in file 'include/image_proc/rectify.hpp'
+[5.822s] 7: 
+[5.822s] 7: No code style divergence in file 'include/image_proc/resize.hpp'
+[5.822s] 7: 
+[5.822s] 7: No code style divergence in file 'include/image_proc/utils.hpp'
+[5.822s] 7: 
+[5.822s] 7: No code style divergence in file 'src/crop_decimate.cpp'
+[5.822s] 7: 
+[5.823s] 7: No code style divergence in file 'src/crop_non_zero.cpp'
+[5.823s] 7: 
+[5.823s] 7: No code style divergence in file 'src/debayer.cpp'
+[5.823s] 7: 
+[5.823s] 7: No code style divergence in file 'src/edge_aware.cpp'
+[5.823s] 7: 
+[5.823s] 7: No code style divergence in file 'src/image_proc.cpp'
+[5.823s] 7: 
+[5.823s] 7: No code style divergence in file 'src/image_proc/processor.cpp'
+[5.823s] 7: 
+[5.823s] 7: No code style divergence in file 'src/rectify.cpp'
+[5.823s] 7: 
+[5.823s] 7: No code style divergence in file 'src/resize.cpp'
+[5.823s] 7: 
+[5.823s] 7: No code style divergence in file 'test/rostest.cpp'
+[5.824s] 7: 
+[5.824s] 7: No code style divergence in file 'test/test_rectify.cpp'
+[5.824s] 7: 
+[5.824s] 7: No problems found
+[5.849s] 7: -- run_test.py: return code 0
+[5.849s] 7: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/uncrustify.xunit.xml'
+[5.893s] 7/8 Test #7: uncrustify .......................   Passed    0.49 sec
+[5.893s] test 8
+[5.893s]     Start 8: xmllint
+[5.893s] 
+[5.893s] 8: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/xmllint.xunit.xml" "--package-name" "image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/xmllint.xunit.xml"
+[5.895s] 8: Test timeout computed to be: 60
+[6.049s] 8: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc':
+[6.049s] 8:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/xmllint.xunit.xml
+[6.494s] 8: File 'package.xml' is valid
+[6.495s] 8: 
+[6.495s] 8: File 'test/test_bayer.xml' is valid
+[6.495s] 8: 
+[6.495s] 8: File 'test/test_rectify.xml' is valid
+[6.495s] 8: 
+[6.495s] 8: No problems found
+[6.509s] 8: -- run_test.py: return code 0
+[6.509s] 8: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/xmllint.xunit.xml'
+[6.520s] 8/8 Test #8: xmllint ..........................   Passed    0.62 sec
+[6.521s] 
+[6.521s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 8
+[6.521s] 
+[6.521s] Label Time Summary:
+[6.522s] copyright     =   0.99 sec*proc (1 test)
+[6.522s] cppcheck      =   0.41 sec*proc (1 test)
+[6.522s] cpplint       =   1.25 sec*proc (1 test)
+[6.522s] flake8        =   1.07 sec*proc (1 test)
+[6.522s] lint_cmake    =   0.42 sec*proc (1 test)
+[6.522s] linter        =   6.36 sec*proc (8 tests)
+[6.522s] pep257        =   1.11 sec*proc (1 test)
+[6.523s] uncrustify    =   0.49 sec*proc (1 test)
+[6.523s] xmllint       =   0.62 sec*proc (1 test)
+[6.523s] 
+[6.535s] Total Test time (real) =   6.39 sec
+[6.571s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/image_proc' returned '0': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

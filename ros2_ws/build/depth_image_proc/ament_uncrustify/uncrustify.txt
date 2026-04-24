@@ -1,0 +1,48 @@
+-- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/uncrustify.xunit.xml
+
+No code style divergence in file 'include/depth_image_proc/conversions.hpp'
+
+No code style divergence in file 'include/depth_image_proc/depth_traits.hpp'
+
+No code style divergence in file 'include/depth_image_proc/point_cloud_xyz.hpp'
+
+No code style divergence in file 'include/depth_image_proc/point_cloud_xyz_radial.hpp'
+
+No code style divergence in file 'include/depth_image_proc/point_cloud_xyzi.hpp'
+
+No code style divergence in file 'include/depth_image_proc/point_cloud_xyzi_radial.hpp'
+
+No code style divergence in file 'include/depth_image_proc/point_cloud_xyzrgb.hpp'
+
+No code style divergence in file 'include/depth_image_proc/point_cloud_xyzrgb_radial.hpp'
+
+No code style divergence in file 'include/depth_image_proc/visibility.h'
+
+No code style divergence in file 'src/conversions.cpp'
+
+No code style divergence in file 'src/convert_metric.cpp'
+
+No code style divergence in file 'src/crop_foremost.cpp'
+
+No code style divergence in file 'src/disparity.cpp'
+
+No code style divergence in file 'src/point_cloud_xyz.cpp'
+
+No code style divergence in file 'src/point_cloud_xyz_radial.cpp'
+
+No code style divergence in file 'src/point_cloud_xyzi.cpp'
+
+No code style divergence in file 'src/point_cloud_xyzi_radial.cpp'
+
+No code style divergence in file 'src/point_cloud_xyzrgb.cpp'
+
+No code style divergence in file 'src/point_cloud_xyzrgb_radial.cpp'
+
+No code style divergence in file 'src/register.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/uncrustify.xunit.xml'

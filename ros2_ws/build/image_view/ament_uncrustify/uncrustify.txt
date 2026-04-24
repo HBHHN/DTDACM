@@ -1,0 +1,44 @@
+-- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_view':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/bryan/Workspace/ros2_ws/build/image_view/test_results/image_view/uncrustify.xunit.xml
+
+No code style divergence in file 'include/image_view/disparity_view_node.hpp'
+
+No code style divergence in file 'include/image_view/extract_images_node.hpp'
+
+No code style divergence in file 'include/image_view/image_saver_node.hpp'
+
+No code style divergence in file 'include/image_view/image_view_node.hpp'
+
+No code style divergence in file 'include/image_view/stereo_view_node.hpp'
+
+No code style divergence in file 'include/image_view/video_recorder_node.hpp'
+
+No code style divergence in file 'src/disparity_view.cpp'
+
+No code style divergence in file 'src/disparity_view_node.cpp'
+
+No code style divergence in file 'src/extract_images.cpp'
+
+No code style divergence in file 'src/extract_images_node.cpp'
+
+No code style divergence in file 'src/image_saver.cpp'
+
+No code style divergence in file 'src/image_saver_node.cpp'
+
+No code style divergence in file 'src/image_view.cpp'
+
+No code style divergence in file 'src/image_view_node.cpp'
+
+No code style divergence in file 'src/stereo_view.cpp'
+
+No code style divergence in file 'src/stereo_view_node.cpp'
+
+No code style divergence in file 'src/video_recorder.cpp'
+
+No code style divergence in file 'src/video_recorder_node.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_view/test_results/image_view/uncrustify.xunit.xml'

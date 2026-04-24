@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/copyright.xunit.xml
+
+No problems found, checked 19 files
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_proc/test_results/image_proc/copyright.xunit.xml'

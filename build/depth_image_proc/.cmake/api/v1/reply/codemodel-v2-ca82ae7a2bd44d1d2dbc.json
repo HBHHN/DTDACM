@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c356d7fb7958aeb81b6f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "depth_image_proc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "convert_metric_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-convert_metric_node-764253b5875e8d0dfa54.json",
+					"name" : "convert_metric_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_foremost_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_foremost_node-b0e66b7d0bda650f8318.json",
+					"name" : "crop_foremost_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "depth_image_proc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-depth_image_proc-de771faced29456615cd.json",
+					"name" : "depth_image_proc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "depth_image_proc_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-depth_image_proc_uninstall-e09419f185f26ab6edb5.json",
+					"name" : "depth_image_proc_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "disparity_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-disparity_node-36cfbdd1fe8d7175dec9.json",
+					"name" : "disparity_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_xyz_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_xyz_node-d77802511370c196c459.json",
+					"name" : "point_cloud_xyz_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_xyz_radial_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_xyz_radial_node-5186a401f351b4cf8916.json",
+					"name" : "point_cloud_xyz_radial_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_xyzi_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_xyzi_node-fdbc9b488928869a0016.json",
+					"name" : "point_cloud_xyzi_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_xyzi_radial_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_xyzi_radial_node-2c64f079f55836c60e54.json",
+					"name" : "point_cloud_xyzi_radial_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_xyzrgb_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_xyzrgb_node-52bb63e91ed1fdf4af8b.json",
+					"name" : "point_cloud_xyzrgb_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_xyzrgb_radial_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_xyzrgb_radial_node-2ef9eff9f1fe1ef525cf.json",
+					"name" : "point_cloud_xyzrgb_radial_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "register_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-register_node-6c3cabbdc6cbccc3c1fb.json",
+					"name" : "register_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-181f6cfe1a3f2a9578fa.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bryan/Workspace/build/depth_image_proc",
+		"source" : "/home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

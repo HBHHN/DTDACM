@@ -1,0 +1,1 @@
+/home/bryan/Workspace/build/image_rotate/ament_cmake_environment_hooks/local_setup.sh

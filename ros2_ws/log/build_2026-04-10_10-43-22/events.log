@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.002264] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.003996] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.004267] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.004322] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.004788] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.005007] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.005069] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.005112] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.005153] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.006164] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.008071] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.015839] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.019883] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.020167] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.020200] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.020221] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.020249] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.020739] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.020769] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.020791] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.020811] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.020888] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.020924] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.020946] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.020965] (-) JobUnselected: {'identifier': 'first_package'}
+[0.020983] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.021000] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.021017] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.021034] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.021051] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.021068] (-) JobUnselected: {'identifier': 'image_view'}
+[0.021085] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.021102] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.021118] (-) JobUnselected: {'identifier': 'sprint2'}
+[0.021134] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.021151] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.021167] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.021191] (image_converter) JobQueued: {'identifier': 'image_converter', 'dependencies': OrderedDict()}
+[0.021222] (image_converter) JobStarted: {'identifier': 'image_converter'}
+[0.095633] (-) TimerEvent: {}
+[0.196613] (-) TimerEvent: {}
+[0.302188] (-) TimerEvent: {}
+[0.415125] (-) TimerEvent: {}
+[0.525912] (-) TimerEvent: {}
+[0.637447] (-) TimerEvent: {}
+[0.742803] (-) TimerEvent: {}
+[0.846940] (-) TimerEvent: {}
+[0.916447] (image_converter) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[0.917409] (image_converter) JobEnded: {'identifier': 'image_converter', 'rc': 1}
+[0.927923] (-) EventReactorShutdown: {}

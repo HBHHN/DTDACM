@@ -1,0 +1,6 @@
+Invoking command in '/home/bryan/Workspace/ros2_ws/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/ros2_ws/install/image_publisher
+Invoked command in '/home/bryan/Workspace/ros2_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/ros2_ws/install/image_publisher
+Invoking command in '/home/bryan/Workspace/ros2_ws/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/image_publisher -- -j3 -l3
+Invoked command in '/home/bryan/Workspace/ros2_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/image_publisher -- -j3 -l3
+Invoking command in '/home/bryan/Workspace/ros2_ws/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bryan/Workspace/ros2_ws/build/image_publisher
+Invoked command in '/home/bryan/Workspace/ros2_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bryan/Workspace/ros2_ws/build/image_publisher

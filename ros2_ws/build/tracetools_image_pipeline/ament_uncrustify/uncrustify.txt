@@ -1,0 +1,24 @@
+-- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/tracetools_image_pipeline':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline/test_results/tracetools_image_pipeline/uncrustify.xunit.xml
+
+No code style divergence in file 'include/tracetools_image_pipeline/tp_call.h'
+
+No code style divergence in file 'include/tracetools_image_pipeline/tracetools.h'
+
+No code style divergence in file 'include/tracetools_image_pipeline/utils.hpp'
+
+No code style divergence in file 'include/tracetools_image_pipeline/visibility_control.hpp'
+
+No code style divergence in file 'src/status.c'
+
+No code style divergence in file 'src/tp_call.c'
+
+No code style divergence in file 'src/tracetools.c'
+
+No code style divergence in file 'src/utils.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline/test_results/tracetools_image_pipeline/uncrustify.xunit.xml'

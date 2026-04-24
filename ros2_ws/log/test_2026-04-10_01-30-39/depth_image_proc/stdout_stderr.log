@@ -1,0 +1,230 @@
+UpdateCTestConfiguration  from :/home/bryan/Workspace/ros2_ws/build/depth_image_proc/CTestConfiguration.ini
+Parse Config file:/home/bryan/Workspace/ros2_ws/build/depth_image_proc/CTestConfiguration.ini
+   Site: bryan-VirtualBox
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20260409-2330 - Experimental
+UpdateCTestConfiguration  from :/home/bryan/Workspace/ros2_ws/build/depth_image_proc/CTestConfiguration.ini
+Parse Config file:/home/bryan/Workspace/ros2_ws/build/depth_image_proc/CTestConfiguration.ini
+Test project /home/bryan/Workspace/ros2_ws/build/depth_image_proc
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: copyright
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/copyright.xunit.xml" "--package-name" "depth_image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/copyright.xunit.xml"
+1: Test timeout computed to be: 200
+1: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc':
+1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/copyright.xunit.xml
+1: No problems found, checked 30 files
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/copyright.xunit.xml'
+1/8 Test #1: copyright ........................   Passed    1.28 sec
+test 2
+    Start 2: cppcheck
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/cppcheck.xunit.xml" "--package-name" "depth_image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/cppcheck.xunit.xml" "--include_dirs" "/home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/include"
+2: Test timeout computed to be: 300
+2: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc':
+2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/cppcheck.xunit.xml --include_dirs /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/include
+2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/cppcheck.xunit.xml'
+2/8 Test #2: cppcheck .........................   Passed    0.37 sec
+test 3
+    Start 3: cpplint
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/cpplint.xunit.xml" "--package-name" "depth_image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/cpplint.xunit.xml"
+3: Test timeout computed to be: 120
+3: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc':
+3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/cpplint.xunit.xml
+3: Using '--root=/home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/include' argument
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/include/depth_image_proc/conversions.hpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/include/depth_image_proc/depth_traits.hpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/include/depth_image_proc/point_cloud_xyz.hpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/include/depth_image_proc/point_cloud_xyz_radial.hpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/include/depth_image_proc/point_cloud_xyzi.hpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/include/depth_image_proc/point_cloud_xyzi_radial.hpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb.hpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb_radial.hpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/include/depth_image_proc/visibility.h
+3: 
+3: Using '--root=/home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/src' argument
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/src/conversions.cpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/src/convert_metric.cpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/src/crop_foremost.cpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/src/disparity.cpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/src/point_cloud_xyz.cpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/src/point_cloud_xyz_radial.cpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/src/point_cloud_xyzi.cpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/src/point_cloud_xyzi_radial.cpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/src/point_cloud_xyzrgb.cpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/src/point_cloud_xyzrgb_radial.cpp
+3: 
+3: Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc/src/register.cpp
+3: 
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/cpplint.xunit.xml'
+3/8 Test #3: cpplint ..........................   Passed    0.82 sec
+test 4
+    Start 4: flake8
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/flake8.xunit.xml" "--package-name" "depth_image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/flake8.xunit.xml"
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc':
+4:  - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/flake8.xunit.xml
+4: 
+4: 10 files checked
+4: No problems found
+4: 
+4: Checked files:
+4: 
+4: * ./launch/convert_metric.launch.py
+4: * ./launch/point_cloud_xyz.launch.py
+4: * ./launch/crop_foremost.launch.py
+4: * ./launch/point_cloud_xyzi.launch.py
+4: * ./launch/point_cloud_xyzrgb_radial.launch.py
+4: * ./launch/point_cloud_xyz_radial.launch.py
+4: * ./launch/disparity.launch.py
+4: * ./launch/register.launch.py
+4: * ./launch/point_cloud_xyzrgb.launch.py
+4: * ./launch/point_cloud_xyzi_radial.launch.py
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/flake8.xunit.xml'
+4/8 Test #4: flake8 ...........................   Passed    0.63 sec
+test 5
+    Start 5: lint_cmake
+
+5: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/lint_cmake.xunit.xml" "--package-name" "depth_image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/lint_cmake.xunit.xml"
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc':
+5:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/lint_cmake.xunit.xml
+5: 
+5: No problems found
+5: -- run_test.py: return code 0
+5: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/lint_cmake.xunit.xml'
+5/8 Test #5: lint_cmake .......................   Passed    0.37 sec
+test 6
+    Start 6: pep257
+
+6: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/pep257.xunit.xml" "--package-name" "depth_image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/pep257.xunit.xml"
+6: Test timeout computed to be: 60
+6: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc':
+6:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/pep257.xunit.xml
+6: checking ./launch/convert_metric.launch.py
+6: checking ./launch/crop_foremost.launch.py
+6: checking ./launch/disparity.launch.py
+6: checking ./launch/point_cloud_xyz.launch.py
+6: checking ./launch/point_cloud_xyz_radial.launch.py
+6: checking ./launch/point_cloud_xyzi.launch.py
+6: checking ./launch/point_cloud_xyzi_radial.launch.py
+6: checking ./launch/point_cloud_xyzrgb.launch.py
+6: checking ./launch/point_cloud_xyzrgb_radial.launch.py
+6: checking ./launch/register.launch.py
+6: No problems found
+6: -- run_test.py: return code 0
+6: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/pep257.xunit.xml'
+6/8 Test #6: pep257 ...........................   Passed    0.64 sec
+test 7
+    Start 7: uncrustify
+
+7: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/uncrustify.xunit.xml" "--package-name" "depth_image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/uncrustify.xunit.xml"
+7: Test timeout computed to be: 60
+7: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc':
+7:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/uncrustify.xunit.xml
+7: No code style divergence in file 'include/depth_image_proc/conversions.hpp'
+7: 
+7: No code style divergence in file 'include/depth_image_proc/depth_traits.hpp'
+7: 
+7: No code style divergence in file 'include/depth_image_proc/point_cloud_xyz.hpp'
+7: 
+7: No code style divergence in file 'include/depth_image_proc/point_cloud_xyz_radial.hpp'
+7: 
+7: No code style divergence in file 'include/depth_image_proc/point_cloud_xyzi.hpp'
+7: 
+7: No code style divergence in file 'include/depth_image_proc/point_cloud_xyzi_radial.hpp'
+7: 
+7: No code style divergence in file 'include/depth_image_proc/point_cloud_xyzrgb.hpp'
+7: 
+7: No code style divergence in file 'include/depth_image_proc/point_cloud_xyzrgb_radial.hpp'
+7: 
+7: No code style divergence in file 'include/depth_image_proc/visibility.h'
+7: 
+7: No code style divergence in file 'src/conversions.cpp'
+7: 
+7: No code style divergence in file 'src/convert_metric.cpp'
+7: 
+7: No code style divergence in file 'src/crop_foremost.cpp'
+7: 
+7: No code style divergence in file 'src/disparity.cpp'
+7: 
+7: No code style divergence in file 'src/point_cloud_xyz.cpp'
+7: 
+7: No code style divergence in file 'src/point_cloud_xyz_radial.cpp'
+7: 
+7: No code style divergence in file 'src/point_cloud_xyzi.cpp'
+7: 
+7: No code style divergence in file 'src/point_cloud_xyzi_radial.cpp'
+7: 
+7: No code style divergence in file 'src/point_cloud_xyzrgb.cpp'
+7: 
+7: No code style divergence in file 'src/point_cloud_xyzrgb_radial.cpp'
+7: 
+7: No code style divergence in file 'src/register.cpp'
+7: 
+7: No problems found
+7: -- run_test.py: return code 0
+7: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/uncrustify.xunit.xml'
+7/8 Test #7: uncrustify .......................   Passed    0.38 sec
+test 8
+    Start 8: xmllint
+
+8: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/xmllint.xunit.xml" "--package-name" "depth_image_proc" "--output-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/xmllint.xunit.xml"
+8: Test timeout computed to be: 60
+8: -- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc':
+8:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/xmllint.xunit.xml
+8: File 'package.xml' is valid
+8: 
+8: No problems found
+8: -- run_test.py: return code 0
+8: -- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/depth_image_proc/test_results/depth_image_proc/xmllint.xunit.xml'
+8/8 Test #8: xmllint ..........................   Passed    0.73 sec
+
+[0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 8
+
+Label Time Summary:
+copyright     =   1.28 sec*proc (1 test)
+cppcheck      =   0.37 sec*proc (1 test)
+cpplint       =   0.82 sec*proc (1 test)
+flake8        =   0.63 sec*proc (1 test)
+lint_cmake    =   0.37 sec*proc (1 test)
+linter        =   5.23 sec*proc (8 tests)
+pep257        =   0.64 sec*proc (1 test)
+uncrustify    =   0.38 sec*proc (1 test)
+xmllint       =   0.73 sec*proc (1 test)
+
+Total Test time (real) =   5.25 sec

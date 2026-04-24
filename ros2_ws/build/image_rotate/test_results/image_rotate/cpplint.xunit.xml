@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="image_rotate.cpplint"
+  tests="4"
+  failures="0"
+  errors="0"
+  time="0.330"
+>
+  <testcase
+    name="/home/bryan/Workspace/ros2_ws/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp"
+    classname="image_rotate.cpplint"/>
+  <testcase
+    name="/home/bryan/Workspace/ros2_ws/image_pipeline/image_rotate/include/image_rotate/visibility.h"
+    classname="image_rotate.cpplint"/>
+  <testcase
+    name="/home/bryan/Workspace/ros2_ws/image_pipeline/image_rotate/src/image_rotate.cpp"
+    classname="image_rotate.cpplint"/>
+  <testcase
+    name="/home/bryan/Workspace/ros2_ws/image_pipeline/image_rotate/src/image_rotate_node.cpp"
+    classname="image_rotate.cpplint"/>
+  <system-out>Checked files:
+* /home/bryan/Workspace/ros2_ws/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp
+* /home/bryan/Workspace/ros2_ws/image_pipeline/image_rotate/include/image_rotate/visibility.h
+* /home/bryan/Workspace/ros2_ws/image_pipeline/image_rotate/src/image_rotate.cpp
+* /home/bryan/Workspace/ros2_ws/image_pipeline/image_rotate/src/image_rotate_node.cpp</system-out>
+</testsuite>

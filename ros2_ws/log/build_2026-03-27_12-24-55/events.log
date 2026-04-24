@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.000513] (first_package) JobQueued: {'identifier': 'first_package', 'dependencies': OrderedDict()}
+[0.000860] (first_package) JobStarted: {'identifier': 'first_package'}
+[0.267508] (-) TimerEvent: {}
+[0.372538] (-) TimerEvent: {}
+[0.481102] (-) TimerEvent: {}
+[0.584040] (-) TimerEvent: {}
+[0.690010] (-) TimerEvent: {}
+[0.806833] (-) TimerEvent: {}
+[0.920348] (-) TimerEvent: {}
+[1.024342] (-) TimerEvent: {}
+[1.142826] (-) TimerEvent: {}
+[1.252717] (-) TimerEvent: {}
+[1.353729] (-) TimerEvent: {}
+[1.459523] (-) TimerEvent: {}
+[1.592972] (-) TimerEvent: {}
+[1.708546] (-) TimerEvent: {}
+[1.715302] (first_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/bryan/Workspace/ros2_ws/build/first_package/build', '--no-deps', 'symlink_data'], 'cwd': '/home/bryan/Workspace/ros2_ws/build/first_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bryan', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bryan', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/bryan', 'TERM_PROGRAM_VERSION': '1.113.0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1589', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bryan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bryan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bryan-VirtualBox:@/tmp/.ICE-unix/1332,unix/bryan-VirtualBox:/tmp/.ICE-unix/1332', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/632d6d56_b9cc_4580_9b4a_91f8b8053845', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.45UNM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-99edd32c78.sock', 'GNOME_TERMINAL_SERVICE': ':1.96', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bryan/Workspace/ros2_ws/build/first_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bryan/Workspace/ros2_ws/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.809206] (-) TimerEvent: {}
+[1.913494] (-) TimerEvent: {}
+[2.050096] (-) TimerEvent: {}
+[2.192370] (-) TimerEvent: {}
+[2.236608] (first_package) StdoutLine: {'line': b'running develop\n'}
+[2.297993] (-) TimerEvent: {}
+[2.520276] (-) TimerEvent: {}
+[2.522327] (first_package) StdoutLine: {'line': b'running egg_info\n'}
+[2.522599] (first_package) StdoutLine: {'line': b'creating first_package.egg-info\n'}
+[2.522759] (first_package) StdoutLine: {'line': b'writing first_package.egg-info/PKG-INFO\n'}
+[2.522894] (first_package) StdoutLine: {'line': b'writing dependency_links to first_package.egg-info/dependency_links.txt\n'}
+[2.523025] (first_package) StdoutLine: {'line': b'writing entry points to first_package.egg-info/entry_points.txt\n'}
+[2.523155] (first_package) StdoutLine: {'line': b'writing requirements to first_package.egg-info/requires.txt\n'}
+[2.526524] (first_package) StdoutLine: {'line': b'writing top-level names to first_package.egg-info/top_level.txt\n'}
+[2.527072] (first_package) StdoutLine: {'line': b"writing manifest file 'first_package.egg-info/SOURCES.txt'\n"}
+[2.527228] (first_package) StdoutLine: {'line': b"reading manifest file 'first_package.egg-info/SOURCES.txt'\n"}
+[2.527359] (first_package) StdoutLine: {'line': b"writing manifest file 'first_package.egg-info/SOURCES.txt'\n"}
+[2.530533] (first_package) StdoutLine: {'line': b'running build_ext\n'}
+[2.530847] (first_package) StdoutLine: {'line': b'Creating /home/bryan/Workspace/ros2_ws/install/first_package/lib/python3.10/site-packages/first-package.egg-link (link to .)\n'}
+[2.531276] (first_package) StdoutLine: {'line': b'\n'}
+[2.531430] (first_package) StdoutLine: {'line': b'Installed /home/bryan/Workspace/ros2_ws/build/first_package\n'}
+[2.531558] (first_package) StdoutLine: {'line': b'running symlink_data\n'}
+[2.531640] (first_package) StdoutLine: {'line': b'creating /home/bryan/Workspace/ros2_ws/install/first_package/share/ament_index\n'}
+[2.531709] (first_package) StdoutLine: {'line': b'creating /home/bryan/Workspace/ros2_ws/install/first_package/share/ament_index/resource_index\n'}
+[2.531775] (first_package) StdoutLine: {'line': b'creating /home/bryan/Workspace/ros2_ws/install/first_package/share/ament_index/resource_index/packages\n'}
+[2.531839] (first_package) StdoutLine: {'line': b'symbolically linking /home/bryan/Workspace/ros2_ws/build/first_package/resource/first_package -> /home/bryan/Workspace/ros2_ws/install/first_package/share/ament_index/resource_index/packages\n'}
+[2.531903] (first_package) StdoutLine: {'line': b'symbolically linking /home/bryan/Workspace/ros2_ws/build/first_package/package.xml -> /home/bryan/Workspace/ros2_ws/install/first_package/share/first_package\n'}
+[2.574435] (first_package) CommandEnded: {'returncode': 0}
+[2.620968] (-) TimerEvent: {}
+[2.676884] (first_package) JobEnded: {'identifier': 'first_package', 'rc': 0}
+[2.679838] (-) EventReactorShutdown: {}

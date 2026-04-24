@@ -1,0 +1,55 @@
+[1.397s] Invoking command in '/home/bryan/Workspace/ros2_ws/image_pipeline/camera_calibration': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_calibration build --build-base /home/bryan/Workspace/ros2_ws/build/camera_calibration/build install --record /home/bryan/Workspace/ros2_ws/build/camera_calibration/install.log --single-version-externally-managed install_data
+[1.972s] running egg_info
+[1.976s] creating ../../build/camera_calibration/camera_calibration.egg-info
+[1.976s] writing ../../build/camera_calibration/camera_calibration.egg-info/PKG-INFO
+[1.977s] writing dependency_links to ../../build/camera_calibration/camera_calibration.egg-info/dependency_links.txt
+[1.978s] writing entry points to ../../build/camera_calibration/camera_calibration.egg-info/entry_points.txt
+[1.979s] writing requirements to ../../build/camera_calibration/camera_calibration.egg-info/requires.txt
+[1.979s] writing top-level names to ../../build/camera_calibration/camera_calibration.egg-info/top_level.txt
+[1.980s] writing manifest file '../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[1.987s] reading manifest file '../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[1.989s] writing manifest file '../../build/camera_calibration/camera_calibration.egg-info/SOURCES.txt'
+[1.989s] running build
+[1.989s] running build_py
+[1.990s] creating /home/bryan/Workspace/ros2_ws/build/camera_calibration/build
+[1.990s] creating /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib
+[1.990s] creating /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration
+[1.990s] copying src/camera_calibration/calibrator.py -> /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration
+[1.997s] copying src/camera_calibration/camera_checker.py -> /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration
+[2.002s] copying src/camera_calibration/__init__.py -> /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration
+[2.020s] copying src/camera_calibration/camera_calibrator.py -> /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration
+[2.022s] creating /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[2.022s] copying src/camera_calibration/nodes/cameracalibrator.py -> /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[2.022s] copying src/camera_calibration/nodes/cameracheck.py -> /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[2.022s] copying src/camera_calibration/nodes/__init__.py -> /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes
+[2.022s] running install
+[2.022s] running install_lib
+[2.022s] creating /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[2.023s] copying /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration/calibrator.py -> /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[2.023s] copying /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration/camera_checker.py -> /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[2.023s] creating /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[2.023s] copying /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes/cameracalibrator.py -> /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[2.023s] copying /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes/cameracheck.py -> /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[2.023s] copying /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration/nodes/__init__.py -> /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes
+[2.023s] copying /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration/__init__.py -> /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[2.023s] copying /home/bryan/Workspace/ros2_ws/build/camera_calibration/build/lib/camera_calibration/camera_calibrator.py -> /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration
+[2.023s] byte-compiling /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/calibrator.py to calibrator.cpython-310.pyc
+[2.033s] byte-compiling /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/camera_checker.py to camera_checker.cpython-310.pyc
+[2.036s] byte-compiling /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes/cameracalibrator.py to cameracalibrator.cpython-310.pyc
+[2.051s] byte-compiling /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes/cameracheck.py to cameracheck.cpython-310.pyc
+[2.051s] byte-compiling /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/nodes/__init__.py to __init__.cpython-310.pyc
+[2.052s] byte-compiling /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/__init__.py to __init__.cpython-310.pyc
+[2.053s] byte-compiling /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration/camera_calibrator.py to camera_calibrator.cpython-310.pyc
+[2.058s] running install_data
+[2.058s] creating /home/bryan/Workspace/ros2_ws/install/camera_calibration/share/ament_index
+[2.058s] creating /home/bryan/Workspace/ros2_ws/install/camera_calibration/share/ament_index/resource_index
+[2.059s] creating /home/bryan/Workspace/ros2_ws/install/camera_calibration/share/ament_index/resource_index/packages
+[2.059s] copying resource/camera_calibration -> /home/bryan/Workspace/ros2_ws/install/camera_calibration/share/ament_index/resource_index/packages
+[2.059s] copying package.xml -> /home/bryan/Workspace/ros2_ws/install/camera_calibration/share/camera_calibration
+[2.059s] running install_egg_info
+[2.063s] Copying ../../build/camera_calibration/camera_calibration.egg-info to /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera_calibration-3.0.9-py3.10.egg-info
+[2.065s] running install_scripts
+[2.084s] Installing cameracalibrator script to /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/camera_calibration
+[2.084s] Installing cameracheck script to /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/camera_calibration
+[2.085s] writing list of installed files to '/home/bryan/Workspace/ros2_ws/build/camera_calibration/install.log'
+[2.112s] Invoked command in '/home/bryan/Workspace/ros2_ws/image_pipeline/camera_calibration' returned '0': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_calibration build --build-base /home/bryan/Workspace/ros2_ws/build/camera_calibration/build install --record /home/bryan/Workspace/ros2_ws/build/camera_calibration/install.log --single-version-externally-managed install_data

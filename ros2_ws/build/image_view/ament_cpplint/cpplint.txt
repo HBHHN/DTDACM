@@ -1,0 +1,48 @@
+-- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_view':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/bryan/Workspace/ros2_ws/build/image_view/test_results/image_view/cpplint.xunit.xml
+
+Using '--root=/home/bryan/Workspace/ros2_ws/image_pipeline/image_view/include' argument
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/include/image_view/disparity_view_node.hpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/include/image_view/extract_images_node.hpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/include/image_view/image_saver_node.hpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/include/image_view/image_view_node.hpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/include/image_view/stereo_view_node.hpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/include/image_view/video_recorder_node.hpp
+
+Using '--root=/home/bryan/Workspace/ros2_ws/image_pipeline/image_view/src' argument
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/src/disparity_view.cpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/src/disparity_view_node.cpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/src/extract_images.cpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/src/extract_images_node.cpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/src/image_saver.cpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/src/image_saver_node.cpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/src/image_view.cpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/src/image_view_node.cpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/src/stereo_view.cpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/src/stereo_view_node.cpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/src/video_recorder.cpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_view/src/video_recorder_node.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_view/test_results/image_view/cpplint.xunit.xml'

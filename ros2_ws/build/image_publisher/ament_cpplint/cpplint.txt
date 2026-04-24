@@ -1,0 +1,57 @@
+-- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/bryan/Workspace/ros2_ws/build/image_publisher/test_results/image_publisher/cpplint.xunit.xml
+
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:352:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:368:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:685:  Missing space after ,  [whitespace/comma] [3]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:696:  Missing space after ,  [whitespace/comma] [3]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:703:  Missing space after ,  [whitespace/comma] [3]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:704:  Missing space after ,  [whitespace/comma] [3]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:705:  Missing space after ,  [whitespace/comma] [3]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:707:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:714:  Missing space after ,  [whitespace/comma] [3]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c:725:  Missing space after ,  [whitespace/comma] [3]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:350:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:366:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:670:  Missing space after ,  [whitespace/comma] [3]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:681:  Missing space after ,  [whitespace/comma] [3]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:688:  Missing space after ,  [whitespace/comma] [3]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:689:  Missing space after ,  [whitespace/comma] [3]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:690:  Missing space after ,  [whitespace/comma] [3]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:692:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:699:  Missing space after ,  [whitespace/comma] [3]
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp:710:  Missing space after ,  [whitespace/comma] [3]
+Category 'legal/copyright' errors found: 2
+Category 'whitespace/comma' errors found: 14
+Category 'whitespace/line_length' errors found: 6
+Total errors found: 22
+Not using '--root'
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+
+Using '--root=/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/include' argument
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/include/image_publisher/image_publisher.hpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/include/image_publisher/visibility.h
+
+Using '--root=/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/install/image_publisher/include' argument
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/install/image_publisher/include/image_publisher/image_publisher.hpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/install/image_publisher/include/image_publisher/visibility.h
+
+Using '--root=/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/src' argument
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/src/image_publisher.cpp
+
+Done processing /home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher/src/image_publisher_node.cpp
+
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_publisher/test_results/image_publisher/cpplint.xunit.xml'

@@ -1,0 +1,21 @@
+[1.387s] Invoking command in '/home/bryan/Workspace/ros2_ws/src/image_converter': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/image_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_converter build --build-base /home/bryan/Workspace/ros2_ws/build/image_converter/build install --record /home/bryan/Workspace/ros2_ws/build/image_converter/install.log --single-version-externally-managed install_data
+[1.977s] running egg_info
+[1.977s] writing ../../build/image_converter/image_converter.egg-info/PKG-INFO
+[1.977s] writing dependency_links to ../../build/image_converter/image_converter.egg-info/dependency_links.txt
+[1.977s] writing entry points to ../../build/image_converter/image_converter.egg-info/entry_points.txt
+[1.977s] writing requirements to ../../build/image_converter/image_converter.egg-info/requires.txt
+[1.977s] writing top-level names to ../../build/image_converter/image_converter.egg-info/top_level.txt
+[1.986s] reading manifest file '../../build/image_converter/image_converter.egg-info/SOURCES.txt'
+[1.986s] writing manifest file '../../build/image_converter/image_converter.egg-info/SOURCES.txt'
+[1.989s] running build
+[1.989s] running build_py
+[1.991s] running install
+[1.992s] running install_lib
+[1.998s] running install_data
+[1.998s] running install_egg_info
+[2.009s] removing '/home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages/image_converter-0.0.0-py3.10.egg-info' (and everything under it)
+[2.023s] Copying ../../build/image_converter/image_converter.egg-info to /home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages/image_converter-0.0.0-py3.10.egg-info
+[2.024s] running install_scripts
+[2.076s] Installing image_converter_pkg script to /home/bryan/Workspace/ros2_ws/install/image_converter/lib/image_converter
+[2.115s] writing list of installed files to '/home/bryan/Workspace/ros2_ws/build/image_converter/install.log'
+[2.162s] Invoked command in '/home/bryan/Workspace/ros2_ws/src/image_converter' returned '0': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/image_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_converter build --build-base /home/bryan/Workspace/ros2_ws/build/image_converter/build install --record /home/bryan/Workspace/ros2_ws/build/image_converter/install.log --single-version-externally-managed install_data

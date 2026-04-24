@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/image_converter/image_converter.egg-info
+writing ../../build/image_converter/image_converter.egg-info/PKG-INFO
+writing dependency_links to ../../build/image_converter/image_converter.egg-info/dependency_links.txt
+writing entry points to ../../build/image_converter/image_converter.egg-info/entry_points.txt
+writing requirements to ../../build/image_converter/image_converter.egg-info/requires.txt
+writing top-level names to ../../build/image_converter/image_converter.egg-info/top_level.txt
+writing manifest file '../../build/image_converter/image_converter.egg-info/SOURCES.txt'
+reading manifest file '../../build/image_converter/image_converter.egg-info/SOURCES.txt'
+writing manifest file '../../build/image_converter/image_converter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bryan/Workspace/ros2_ws/build/image_converter/build
+creating /home/bryan/Workspace/ros2_ws/build/image_converter/build/lib
+creating /home/bryan/Workspace/ros2_ws/build/image_converter/build/lib/image_converter
+copying image_converter/__init__.py -> /home/bryan/Workspace/ros2_ws/build/image_converter/build/lib/image_converter
+copying image_converter/image_converter_pkg.py -> /home/bryan/Workspace/ros2_ws/build/image_converter/build/lib/image_converter
+running install
+running install_lib
+creating /home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages/image_converter
+copying /home/bryan/Workspace/ros2_ws/build/image_converter/build/lib/image_converter/__init__.py -> /home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages/image_converter
+copying /home/bryan/Workspace/ros2_ws/build/image_converter/build/lib/image_converter/image_converter_pkg.py -> /home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages/image_converter
+byte-compiling /home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages/image_converter/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages/image_converter/image_converter_pkg.py to image_converter_pkg.cpython-310.pyc
+running install_data
+creating /home/bryan/Workspace/ros2_ws/install/image_converter/share/ament_index
+creating /home/bryan/Workspace/ros2_ws/install/image_converter/share/ament_index/resource_index
+creating /home/bryan/Workspace/ros2_ws/install/image_converter/share/ament_index/resource_index/packages
+copying resource/image_converter -> /home/bryan/Workspace/ros2_ws/install/image_converter/share/ament_index/resource_index/packages
+copying package.xml -> /home/bryan/Workspace/ros2_ws/install/image_converter/share/image_converter
+running install_egg_info
+Copying ../../build/image_converter/image_converter.egg-info to /home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages/image_converter-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_converter_pkg script to /home/bryan/Workspace/ros2_ws/install/image_converter/lib/image_converter
+writing list of installed files to '/home/bryan/Workspace/ros2_ws/build/image_converter/install.log'

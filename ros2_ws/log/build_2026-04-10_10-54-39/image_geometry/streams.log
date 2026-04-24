@@ -1,0 +1,57 @@
+[0.259s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/image_geometry -- -j3 -l3
+[0.774s] [  0%] Built target ament_cmake_python_copy_image_geometry
+[0.827s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.946s] [ 22%] Built target gtest_main
+[1.082s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.235s] [ 44%] Built target gtest
+[2.178s] running egg_info
+[2.179s] writing image_geometry.egg-info/PKG-INFO
+[2.179s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[2.181s] writing top-level names to image_geometry.egg-info/top_level.txt
+[2.217s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[2.217s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[2.304s] [ 44%] Built target ament_cmake_python_build_image_geometry_egg
+[2.378s] [35m[1mConsolidate compiler generated dependencies of target image_geometry[0m
+[2.520s] [ 77%] Built target image_geometry
+[2.581s] [35m[1mConsolidate compiler generated dependencies of target image_geometry-utest[0m
+[2.644s] [100%] Built target image_geometry-utest
+[2.747s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/image_geometry -- -j3 -l3
+[2.748s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/bryan/Workspace/ros2_ws/build/image_geometry
+[2.778s] -- Install configuration: ""
+[2.781s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[2.781s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[2.781s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info
+[2.781s] -- Installing: /home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/SOURCES.txt
+[2.781s] -- Installing: /home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/top_level.txt
+[2.781s] -- Installing: /home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/dependency_links.txt
+[2.781s] -- Installing: /home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry-3.2.1-py3.10.egg-info/PKG-INFO
+[2.781s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry
+[2.781s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/cameramodels.py
+[2.781s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry/__init__.py
+[2.906s] Listing '/home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages/image_geometry'...
+[2.920s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/include/image_geometry
+[2.920s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/include/image_geometry/image_geometry
+[2.920s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+[2.920s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[2.921s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.h
+[2.922s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/lib/libimage_geometry.so
+[2.922s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[2.922s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[2.922s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[2.922s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[2.922s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[2.922s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[2.923s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[2.923s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[2.923s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[2.923s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[2.923s] -- Installing: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/package.dsv
+[2.923s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[2.923s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[2.924s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[2.924s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[2.924s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.924s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[2.924s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[2.924s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/image_geometry/share/image_geometry/package.xml
+[2.954s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/bryan/Workspace/ros2_ws/build/image_geometry

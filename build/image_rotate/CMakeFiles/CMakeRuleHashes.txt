@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+9c5eba60cda381a8297dc58247aff95e CMakeFiles/image_rotate_uninstall

@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.001293] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.001350] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.001369] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.001404] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001417] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001431] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001444] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001456] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001469] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001481] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001494] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001506] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001604] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001623] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001637] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001650] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001663] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001676] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001689] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001702] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001715] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001727] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001740] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001752] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001765] (-) JobUnselected: {'identifier': 'first_package'}
+[0.001777] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.001789] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.001802] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.001814] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.001827] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.001839] (-) JobUnselected: {'identifier': 'image_view'}
+[0.001851] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001864] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.001876] (-) JobUnselected: {'identifier': 'sprint2'}
+[0.001888] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.001900] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.001913] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.001930] (image_converter) JobQueued: {'identifier': 'image_converter', 'dependencies': OrderedDict()}
+[0.001950] (image_converter) JobStarted: {'identifier': 'image_converter'}
+[0.107096] (-) TimerEvent: {}
+[0.208786] (-) TimerEvent: {}
+[0.313504] (-) TimerEvent: {}
+[0.423753] (-) TimerEvent: {}
+[0.525240] (-) TimerEvent: {}
+[0.626463] (-) TimerEvent: {}
+[0.731663] (-) TimerEvent: {}
+[0.833935] (-) TimerEvent: {}
+[0.936363] (-) TimerEvent: {}
+[1.036932] (-) TimerEvent: {}
+[1.137982] (-) TimerEvent: {}
+[1.240590] (-) TimerEvent: {}
+[1.341318] (-) TimerEvent: {}
+[1.442755] (-) TimerEvent: {}
+[1.545389] (-) TimerEvent: {}
+[1.564172] (image_converter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/image_converter', 'build', '--build-base', '/home/bryan/Workspace/ros2_ws/build/image_converter/build', 'install', '--record', '/home/bryan/Workspace/ros2_ws/build/image_converter/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bryan/Workspace/ros2_ws/src/image_converter', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bryan', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bryan/Workspace/ros2_ws/install/image_proc/lib:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/lib:/home/bryan/Workspace/ros2_ws/install/image_rotate/lib:/home/bryan/Workspace/ros2_ws/install/image_publisher/lib:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bryan', 'OLDPWD': '/home/bryan/Workspace/ros2_ws/launch', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1819', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bryan/Workspace/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bryan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bryan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/bryan/Workspace/ros2_ws/install/image_proc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bryan-VirtualBox:@/tmp/.ICE-unix/1608,unix/bryan-VirtualBox:/tmp/.ICE-unix/1608', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/306514a7_6a53_44de_bc42_4959ee3b9840', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V8EQN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_rotate:/home/bryan/Workspace/ros2_ws/install/image_publisher:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_wait_set:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_async_client:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bryan/Workspace/ros2_ws/build/image_converter', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bryan/Workspace/ros2_ws/build/image_converter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/build/sprint2:/home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/build/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/build/first_package:/home/bryan/Workspace/ros2_ws/install/first_package/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/build/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/build/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/build/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/build/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/build/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/build/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/build/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/image_rotate:/home/bryan/Workspace/ros2_ws/install/image_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_wait_set:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bryan/Workspace/ros2_ws/install/examples_rclcpp_async_client'}, 'shell': False}
+[1.645931] (-) TimerEvent: {}
+[1.747375] (-) TimerEvent: {}
+[1.848350] (-) TimerEvent: {}
+[1.950215] (-) TimerEvent: {}
+[2.051231] (-) TimerEvent: {}
+[2.153551] (-) TimerEvent: {}
+[2.210300] (image_converter) StdoutLine: {'line': b'running egg_info\n'}
+[2.211129] (image_converter) StdoutLine: {'line': b'writing ../../build/image_converter/image_converter.egg-info/PKG-INFO\n'}
+[2.211361] (image_converter) StdoutLine: {'line': b'writing dependency_links to ../../build/image_converter/image_converter.egg-info/dependency_links.txt\n'}
+[2.211581] (image_converter) StdoutLine: {'line': b'writing entry points to ../../build/image_converter/image_converter.egg-info/entry_points.txt\n'}
+[2.211779] (image_converter) StdoutLine: {'line': b'writing requirements to ../../build/image_converter/image_converter.egg-info/requires.txt\n'}
+[2.211962] (image_converter) StdoutLine: {'line': b'writing top-level names to ../../build/image_converter/image_converter.egg-info/top_level.txt\n'}
+[2.212148] (image_converter) StdoutLine: {'line': b"reading manifest file '../../build/image_converter/image_converter.egg-info/SOURCES.txt'\n"}
+[2.212339] (image_converter) StdoutLine: {'line': b"writing manifest file '../../build/image_converter/image_converter.egg-info/SOURCES.txt'\n"}
+[2.212527] (image_converter) StdoutLine: {'line': b'running build\n'}
+[2.212716] (image_converter) StdoutLine: {'line': b'running build_py\n'}
+[2.212791] (image_converter) StdoutLine: {'line': b'running install\n'}
+[2.212855] (image_converter) StdoutLine: {'line': b'running install_lib\n'}
+[2.212916] (image_converter) StdoutLine: {'line': b'running install_data\n'}
+[2.213097] (image_converter) StdoutLine: {'line': b'creating /home/bryan/Workspace/ros2_ws/install/image_converter/share/image_converter/launch\n'}
+[2.213281] (image_converter) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.213465] (image_converter) StdoutLine: {'line': b"removing '/home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages/image_converter-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.214422] (image_converter) StdoutLine: {'line': b'Copying ../../build/image_converter/image_converter.egg-info to /home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages/image_converter-0.0.0-py3.10.egg-info\n'}
+[2.215088] (image_converter) StdoutLine: {'line': b'running install_scripts\n'}
+[2.264429] (-) TimerEvent: {}
+[2.296097] (image_converter) StdoutLine: {'line': b'Installing image_converter_pkg script to /home/bryan/Workspace/ros2_ws/install/image_converter/lib/image_converter\n'}
+[2.297915] (image_converter) StdoutLine: {'line': b"writing list of installed files to '/home/bryan/Workspace/ros2_ws/build/image_converter/install.log'\n"}
+[2.356345] (image_converter) CommandEnded: {'returncode': 0}
+[2.366972] (-) TimerEvent: {}
+[2.390216] (image_converter) JobEnded: {'identifier': 'image_converter', 'rc': 0}
+[2.393743] (-) EventReactorShutdown: {}

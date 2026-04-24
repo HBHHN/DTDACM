@@ -1,0 +1,75 @@
+[0.263s] Invoking command in '/home/bryan/Workspace/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/bryan/Workspace/ros2_ws/image_pipeline/tracetools_image_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/install/tracetools_image_pipeline
+[1.484s] -- The C compiler identification is GNU 11.4.0
+[1.484s] -- The CXX compiler identification is GNU 11.4.0
+[1.486s] -- Detecting C compiler ABI info
+[1.486s] -- Detecting C compiler ABI info - done
+[1.486s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.487s] -- Detecting C compile features
+[1.489s] -- Detecting C compile features - done
+[1.490s] -- Detecting CXX compiler ABI info
+[1.628s] -- Detecting CXX compiler ABI info - done
+[1.649s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.649s] -- Detecting CXX compile features
+[1.651s] -- Detecting CXX compile features - done
+[1.674s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.122s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.408s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.764s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.764s] -- Checking for module 'lttng-ust'
+[3.830s] --   No package 'lttng-ust' found
+[3.922s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.498s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.498s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.498s] -- Configured cppcheck include dirs: 
+[4.499s] -- Configured cppcheck exclude dirs and/or files: 
+[4.505s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.508s] -- Configured cpplint exclude dirs and/or files: 
+[4.651s] -- Added test 'lint_cmake' to check CMake code style
+[4.730s] -- Added test 'uncrustify' to check C / C++ code style
+[4.731s] -- Configured uncrustify additional arguments: 
+[4.731s] -- Added test 'xmllint' to check XML markup files
+[4.735s] -- Configuring done
+[4.743s] -- Generating done
+[4.747s] -- Build files have been written to: /home/bryan/Workspace/build/tracetools_image_pipeline
+[4.828s] Invoked command in '/home/bryan/Workspace/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/bryan/Workspace/ros2_ws/image_pipeline/tracetools_image_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/install/tracetools_image_pipeline
+[4.835s] Invoking command in '/home/bryan/Workspace/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/build/tracetools_image_pipeline -- -j3 -l3
+[5.438s] [ 20%] [32mBuilding C object CMakeFiles/tracetools_image_pipeline.dir/src/tracetools.c.o[0m
+[5.545s] [ 40%] [32mBuilding CXX object CMakeFiles/tracetools_image_pipeline.dir/src/utils.cpp.o[0m
+[6.416s] [ 60%] [32m[1mLinking CXX shared library libtracetools_image_pipeline.so[0m
+[6.899s] [ 60%] Built target tracetools_image_pipeline
+[7.397s] [ 80%] [32mBuilding C object CMakeFiles/status.dir/src/status.c.o[0m
+[7.674s] [100%] [32m[1mLinking C executable status[0m
+[7.998s] [100%] Built target status
+[8.100s] Invoked command in '/home/bryan/Workspace/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/build/tracetools_image_pipeline -- -j3 -l3
+[8.235s] Invoking command in '/home/bryan/Workspace/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/bryan/Workspace/build/tracetools_image_pipeline
+[8.259s] -- Install configuration: ""
+[8.259s] -- Execute custom install script
+[8.259s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.sh
+[8.398s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.dsv
+[8.477s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/lib/tracetools_image_pipeline/status
+[8.522s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/include/tracetools_image_pipeline/config.h
+[8.621s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/include/tracetools_image_pipeline/tracetools.h
+[8.715s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/include/tracetools_image_pipeline/utils.hpp
+[8.806s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/include/tracetools_image_pipeline/visibility_control.hpp
+[8.835s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/ament_index/resource_index/package_run_dependencies/tracetools_image_pipeline
+[8.930s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/ament_index/resource_index/parent_prefix_path/tracetools_image_pipeline
+[8.993s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.sh
+[9.088s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.dsv
+[9.130s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.sh
+[9.230s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.dsv
+[9.338s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.bash
+[9.578s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.sh
+[9.744s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.zsh
+[9.815s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.dsv
+[9.837s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv
+[9.862s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/ament_index/resource_index/packages/tracetools_image_pipeline
+[9.885s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_targets-extras.cmake
+[9.968s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.003s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_libraries-extras.cmake
+[10.129s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig.cmake
+[10.154s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig-version.cmake
+[10.178s] -- Symlinking: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.xml
+[10.272s] -- Installing: /home/bryan/Workspace/install/tracetools_image_pipeline/lib/libtracetools_image_pipeline.so
+[10.273s] -- Installing: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport.cmake
+[10.273s] -- Installing: /home/bryan/Workspace/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport-noconfig.cmake
+[10.273s] Invoked command in '/home/bryan/Workspace/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/bryan/Workspace/build/tracetools_image_pipeline

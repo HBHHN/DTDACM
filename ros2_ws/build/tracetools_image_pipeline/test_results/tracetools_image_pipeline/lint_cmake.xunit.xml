@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="tracetools_image_pipeline.lint_cmake"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.002"
+>
+  <testcase
+    name="CMakeLists.txt"
+    classname="tracetools_image_pipeline.lint_cmake"/>
+  <system-out>Checked files:
+* CMakeLists.txt</system-out>
+</testsuite>

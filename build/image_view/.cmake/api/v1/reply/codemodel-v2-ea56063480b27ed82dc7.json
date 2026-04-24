@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d1226ab54051b8127303.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "image_view",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "disparity_view::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-disparity_view-d6acd0333bc511209957.json",
+					"name" : "disparity_view",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "extract_images::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-extract_images-03d7de70d271a80553d5.json",
+					"name" : "extract_images",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_saver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_saver-0de1ee9d47b65577c256.json",
+					"name" : "image_saver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_view::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_view-1405fed32eb618d375a4.json",
+					"name" : "image_view",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_view_nodes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_view_nodes-32bc3b2d369a233fbe88.json",
+					"name" : "image_view_nodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_view_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_view_uninstall-566e8949695d0d49f31b.json",
+					"name" : "image_view_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_view::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_view-c70ecb5631147bf9da1e.json",
+					"name" : "stereo_view",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d87826a77fbb709871a5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_recorder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_recorder-5b64775616373689ce56.json",
+					"name" : "video_recorder",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bryan/Workspace/build/image_view",
+		"source" : "/home/bryan/Workspace/ros2_ws/image_pipeline/image_view"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

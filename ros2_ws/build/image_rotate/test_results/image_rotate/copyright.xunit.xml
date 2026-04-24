@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="image_rotate.copyright"
+  tests="5"
+  errors="0"
+  failures="0"
+  time="0.287"
+>
+  <testcase
+    name="include/image_rotate/image_rotate_node.hpp"
+    classname="image_rotate.copyright"/>
+  <testcase
+    name="include/image_rotate/visibility.h"
+    classname="image_rotate.copyright"/>
+  <testcase
+    name="launch/image_rotate.launch.py"
+    classname="image_rotate.copyright"/>
+  <testcase
+    name="src/image_rotate.cpp"
+    classname="image_rotate.copyright"/>
+  <testcase
+    name="src/image_rotate_node.cpp"
+    classname="image_rotate.copyright"/>
+  <system-out>Checked files:
+* include/image_rotate/image_rotate_node.hpp
+* include/image_rotate/visibility.h
+* launch/image_rotate.launch.py
+* src/image_rotate.cpp
+* src/image_rotate_node.cpp</system-out>
+</testsuite>

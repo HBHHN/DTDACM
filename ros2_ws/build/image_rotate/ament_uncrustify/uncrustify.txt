@@ -1,0 +1,16 @@
+-- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_rotate':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/bryan/Workspace/ros2_ws/build/image_rotate/test_results/image_rotate/uncrustify.xunit.xml
+
+No code style divergence in file 'include/image_rotate/image_rotate_node.hpp'
+
+No code style divergence in file 'include/image_rotate/visibility.h'
+
+No code style divergence in file 'src/image_rotate.cpp'
+
+No code style divergence in file 'src/image_rotate_node.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_rotate/test_results/image_rotate/uncrustify.xunit.xml'

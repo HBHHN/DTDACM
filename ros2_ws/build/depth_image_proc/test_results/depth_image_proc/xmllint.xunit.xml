@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="depth_image_proc.xmllint"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.305"
+>
+  <testcase
+    name="package.xml"
+    classname="depth_image_proc.xmllint"/>
+  <system-out>Checked files:
+* package.xml</system-out>
+</testsuite>

@@ -1,0 +1,28 @@
+running develop
+Removing /home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages/sprint2.egg-link (link to .)
+running egg_info
+writing ../build/sprint2/sprint2.egg-info/PKG-INFO
+writing dependency_links to ../build/sprint2/sprint2.egg-info/dependency_links.txt
+writing entry points to ../build/sprint2/sprint2.egg-info/entry_points.txt
+writing requirements to ../build/sprint2/sprint2.egg-info/requires.txt
+writing top-level names to ../build/sprint2/sprint2.egg-info/top_level.txt
+reading manifest file '../build/sprint2/sprint2.egg-info/SOURCES.txt'
+writing manifest file '../build/sprint2/sprint2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bryan/Workspace/ros2_ws/build/sprint2/build
+creating /home/bryan/Workspace/ros2_ws/build/sprint2/build/lib
+creating /home/bryan/Workspace/ros2_ws/build/sprint2/build/lib/sprint2
+copying sprint2/__init__.py -> /home/bryan/Workspace/ros2_ws/build/sprint2/build/lib/sprint2
+running install
+running install_lib
+creating /home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages/sprint2
+copying /home/bryan/Workspace/ros2_ws/build/sprint2/build/lib/sprint2/__init__.py -> /home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages/sprint2
+byte-compiling /home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages/sprint2/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/sprint2 -> /home/bryan/Workspace/ros2_ws/install/sprint2/share/ament_index/resource_index/packages
+copying package.xml -> /home/bryan/Workspace/ros2_ws/install/sprint2/share/sprint2
+running install_egg_info
+Copying ../build/sprint2/sprint2.egg-info to /home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages/sprint2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/bryan/Workspace/ros2_ws/build/sprint2/install.log'

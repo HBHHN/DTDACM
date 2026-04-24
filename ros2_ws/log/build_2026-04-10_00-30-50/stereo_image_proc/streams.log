@@ -1,0 +1,10 @@
+[0.922s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/stereo_image_proc': AMENT_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/lib:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/bin:${PATH} /usr/bin/cmake /home/bryan/Workspace/ros2_ws/image_pipeline/stereo_image_proc -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/ros2_ws/install/stereo_image_proc
+[1.209s] -- The C compiler identification is GNU 11.4.0
+[1.419s] -- The CXX compiler identification is GNU 11.4.0
+[1.454s] -- Detecting C compiler ABI info
+[1.707s] -- Detecting C compiler ABI info - done
+[2.078s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.088s] -- Detecting C compile features
+[2.091s] -- Detecting C compile features - done
+[2.125s] -- Detecting CXX compiler ABI info
+[2.318s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/stereo_image_proc' returned '-2': AMENT_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/lib:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/bin:${PATH} /usr/bin/cmake /home/bryan/Workspace/ros2_ws/image_pipeline/stereo_image_proc -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/ros2_ws/install/stereo_image_proc

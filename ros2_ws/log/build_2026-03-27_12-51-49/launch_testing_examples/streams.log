@@ -1,0 +1,16 @@
+[1.553s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bryan/Workspace/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data
+[1.959s] running develop
+[2.238s] running egg_info
+[2.238s] writing launch_testing_examples.egg-info/PKG-INFO
+[2.238s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[2.238s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[2.238s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[2.241s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[2.245s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.246s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.247s] running build_ext
+[2.250s] Creating /home/bryan/Workspace/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[2.251s] 
+[2.254s] Installed /home/bryan/Workspace/ros2_ws/build/launch_testing_examples
+[2.254s] running symlink_data
+[2.354s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bryan/Workspace/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data

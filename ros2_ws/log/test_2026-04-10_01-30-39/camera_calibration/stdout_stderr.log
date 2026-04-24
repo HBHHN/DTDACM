@@ -1,0 +1,22 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/bryan/Workspace/ros2_ws/build/camera_calibration/.pytest_cache
+rootdir: /home/bryan/Workspace/ros2_ws/image_pipeline/camera_calibration, configfile: pytest.ini
+plugins: ament-copyright-0.12.15, launch-testing-ros-0.19.13, ament-pep257-0.12.15, launch-testing-1.0.14, ament-xmllint-0.12.15, ament-lint-0.12.15, ament-flake8-0.12.15, cov-3.0.0, colcon-core-0.20.1
+[1mcollecting ... [0m[1m
+collecting 0 items                                                             [0m[1m
+collected 6 items                                                              [0m
+
+test/test_directed.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[33m                                              [ 83%][0m
+
+[33m=============================== warnings summary ===============================[0m
+src/camera_calibration/calibrator.py:47
+  Warning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+
+test/test_directed.py: 240 warnings
+  Warning: the matrix subclass is not the recommended way to represent matrices or deal with linear algebra (see https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html). Please adjust your code to use regular ndarray.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+test/test_multiple_boards.py [32m.[0m[33m                                           [100%][0m
+- generated xml file: /home/bryan/Workspace/ros2_ws/build/camera_calibration/pytest.xml -
+[33m================== [32m6 passed[0m, [33m[1m241 warnings[0m[33m in 74.46s (0:01:14)[0m[33m ==================[0m

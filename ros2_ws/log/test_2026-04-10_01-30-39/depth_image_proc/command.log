@@ -1,0 +1,2 @@
+Invoking command in '/home/bryan/Workspace/ros2_ws/build/depth_image_proc': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+Invoked command in '/home/bryan/Workspace/ros2_ws/build/depth_image_proc' returned '0': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

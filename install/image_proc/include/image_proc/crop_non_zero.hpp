@@ -1,0 +1,1 @@
+/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc/include/image_proc/crop_non_zero.hpp

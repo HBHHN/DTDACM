@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e18ebbbf9b5bfeaa908b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stereo_image_proc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "disparity_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-disparity_node-1282108bd0a956bd3778.json",
+					"name" : "disparity_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "point_cloud_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-point_cloud_node-20869dc52cc5bde06b8d.json",
+					"name" : "point_cloud_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_image_proc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_image_proc-fcf070529544f758f125.json",
+					"name" : "stereo_image_proc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stereo_image_proc_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stereo_image_proc_uninstall-41675d17180b3781f220.json",
+					"name" : "stereo_image_proc_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cb8a282a933bf4687074.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bryan/Workspace/build/stereo_image_proc",
+		"source" : "/home/bryan/Workspace/ros2_ws/image_pipeline/stereo_image_proc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

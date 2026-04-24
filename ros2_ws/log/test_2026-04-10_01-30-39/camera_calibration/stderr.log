@@ -1,0 +1,9 @@
+
+[33m=============================== warnings summary ===============================[0m
+src/camera_calibration/calibrator.py:47
+  Warning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+
+test/test_directed.py: 240 warnings
+  Warning: the matrix subclass is not the recommended way to represent matrices or deal with linear algebra (see https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html). Please adjust your code to use regular ndarray.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html

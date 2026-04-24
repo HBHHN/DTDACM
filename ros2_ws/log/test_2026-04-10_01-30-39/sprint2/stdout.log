@@ -1,0 +1,36 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/bryan/Workspace/ros2_ws/build/sprint2/.pytest_cache
+rootdir: /home/bryan/Workspace/ros2_ws/sprint2
+plugins: ament-copyright-0.12.15, launch-testing-ros-0.19.13, ament-pep257-0.12.15, launch-testing-1.0.14, ament-xmllint-0.12.15, ament-lint-0.12.15, ament-flake8-0.12.15, cov-3.0.0, colcon-core-0.20.1
+[1mcollecting ... [0m[1m
+collected 0 items / 1 error                                                    [0m
+
+==================================== ERRORS ====================================
+[31m[1m________________________ ERROR collecting test session _________________________[0m
+[1m[31m/usr/lib/python3/dist-packages/pluggy/hooks.py[0m:286: in __call__
+    [94mreturn[39;49;00m [96mself[39;49;00m._hookexec([96mself[39;49;00m, [96mself[39;49;00m.get_hookimpls(), kwargs)
+[1m[31m/usr/lib/python3/dist-packages/pluggy/manager.py[0m:92: in _hookexec
+    [94mreturn[39;49;00m [96mself[39;49;00m._inner_hookexec(hook, methods, kwargs)
+[1m[31m/usr/lib/python3/dist-packages/pluggy/manager.py[0m:83: in <lambda>
+    [96mself[39;49;00m._inner_hookexec = [94mlambda[39;49;00m hook, methods, kwargs: hook.multicall(
+[1m[31m/usr/lib/python3/dist-packages/_pytest/python.py[0m:200: in pytest_collect_file
+    module: Module = ihook.pytest_pycollect_makemodule(path=path, parent=parent)
+[1m[31m/usr/lib/python3/dist-packages/pluggy/hooks.py[0m:286: in __call__
+    [94mreturn[39;49;00m [96mself[39;49;00m._hookexec([96mself[39;49;00m, [96mself[39;49;00m.get_hookimpls(), kwargs)
+[1m[31m/usr/lib/python3/dist-packages/pluggy/manager.py[0m:92: in _hookexec
+    [94mreturn[39;49;00m [96mself[39;49;00m._inner_hookexec(hook, methods, kwargs)
+[1m[31m/usr/lib/python3/dist-packages/pluggy/manager.py[0m:83: in <lambda>
+    [96mself[39;49;00m._inner_hookexec = [94mlambda[39;49;00m hook, methods, kwargs: hook.multicall(
+[1m[31m/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py[0m:193: in pytest_pycollect_makemodule
+    entrypoint = find_launch_test_entrypoint(path)
+[1m[31m/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py[0m:186: in find_launch_test_entrypoint
+    module = path.pyimport()
+[1m[31m/usr/lib/python3/dist-packages/py/_path/local.py[0m:724: in pyimport
+    [94mraise[39;49;00m [96mself[39;49;00m.ImportMismatchError(modname, modfile, [96mself[39;49;00m)
+[1m[31mE   py._path.local.LocalPath.ImportMismatchError: ('test_copyright', '/home/bryan/Workspace/ros2_ws/sprint2/test/test_copyright.py', local('/home/bryan/Workspace/ros2_ws/sprint2/transmitter/test/test_copyright.py'))[0m
+-- generated xml file: /home/bryan/Workspace/ros2_ws/build/sprint2/pytest.xml --
+=========================== short test summary info ============================
+ERROR  - py._path.local.LocalPath.ImportMismatchError: ('test_copyright', '/h...
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+[31m=============================== [31m[1m1 error[0m[31m in 0.62s[0m[31m ===============================[0m

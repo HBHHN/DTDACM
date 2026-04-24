@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="image_publisher.lint_cmake"
+  tests="120"
+  errors="0"
+  failures="105"
+  time="0.100"
+>
+  <testcase
+    name="CMakeLists.txt"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="build/image_publisher/CTestCustom.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="whitespace/eol (build/image_publisher/CTestTestfile.cmake:1)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/image_publisher/CTestTestfile.cmake:4)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (build/image_publisher/CTestTestfile.cmake:5)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:7)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:8)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:9)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:10)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:11)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:12)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:13)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:14)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:15)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:16)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:17)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:18)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:19)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:20)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:21)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CTestTestfile.cmake:22)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:13)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:46)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:50)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:54)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:59)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:61)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:62)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:64)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:66)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:68)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:69)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:70)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:82)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:84)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:85)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:87)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:89)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:91)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:92)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:92)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:93)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:101)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:105)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:109)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:113)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:117)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:121)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:125)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:129)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:133)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:137)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:141)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:145)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:149)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:153)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:157)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:161)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:165)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/cmake_install.cmake:169)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/cmake_install.cmake:176)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:186)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="whitespace/indent (build/image_publisher/cmake_install.cmake:188)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Weird indentation; use 2 spaces"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/Makefile.cmake:8)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/Makefile.cmake:877)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/Makefile.cmake:883)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/Makefile.cmake:918)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CMakeFiles/3.22.1/CMakeCCompiler.cmake:9)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CMakeFiles/3.22.1/CMakeCCompiler.cmake:69)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:9)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:11)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:12)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (build/image_publisher/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:42)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Extra spaces between 'foreach' and its ()"/>
+  </testcase>
+  <testcase
+    name="whitespace/extra (build/image_publisher/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:43)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Extra spaces between 'if' and its ()"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake:80)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/3.22.1/CMakeSystem.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/image_publisher.dir/DependInfo.cmake:6)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/image_publisher.dir/DependInfo.cmake:10)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/image_publisher.dir/DependInfo.cmake:15)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/image_publisher.dir/cmake_clean.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/image_publisher_node.dir/DependInfo.cmake:6)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/image_publisher_node.dir/DependInfo.cmake:10)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/image_publisher_node.dir/DependInfo.cmake:15)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/image_publisher_node.dir/cmake_clean.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/image_publisher_uninstall.dir/DependInfo.cmake:6)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/image_publisher_uninstall.dir/DependInfo.cmake:10)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/image_publisher_uninstall.dir/DependInfo.cmake:14)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/image_publisher_uninstall.dir/cmake_clean.cmake:6)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/uninstall.dir/DependInfo.cmake:6)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/uninstall.dir/DependInfo.cmake:10)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/uninstall.dir/DependInfo.cmake:14)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/CMakeFiles/uninstall.dir/cmake_clean.cmake:3)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/ament_cmake_core/image_publisherConfig-version.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_core/image_publisherConfig.cmake:39)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_core/package.cmake:3)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/ament_cmake_core/package.cmake:7)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/ament_cmake_core/package.cmake:10)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="whitespace/mismatch (build/image_publisher/ament_cmake_core/package.cmake:11)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Mismatching spaces inside () after command"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="build/image_publisher/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="build/image_publisher/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_package_templates/templates.cmake:1)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_package_templates/templates.cmake:2)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_package_templates/templates.cmake:4)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_package_templates/templates.cmake:5)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_package_templates/templates.cmake:6)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_package_templates/templates.cmake:8)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_package_templates/templates.cmake:9)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_package_templates/templates.cmake:10)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_package_templates/templates.cmake:11)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_package_templates/templates.cmake:12)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_package_templates/templates.cmake:13)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="linelength (build/image_publisher/ament_cmake_package_templates/templates.cmake:14)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake"
+    classname="image_publisher.lint_cmake"/>
+  <testcase
+    name="linelength (install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake:39)"
+    classname="image_publisher.lint_cmake"
+  >
+      <failure message="Lines should be &lt;= 140 characters long"/>
+  </testcase>
+  <system-out>Checked files:
+* CMakeLists.txt
+* build/image_publisher/CTestCustom.cmake
+* build/image_publisher/CTestTestfile.cmake
+* build/image_publisher/cmake_install.cmake
+* build/image_publisher/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/image_publisher/CMakeFiles/Makefile.cmake
+* build/image_publisher/CMakeFiles/3.22.1/CMakeCCompiler.cmake
+* build/image_publisher/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake
+* build/image_publisher/CMakeFiles/3.22.1/CMakeSystem.cmake
+* build/image_publisher/CMakeFiles/image_publisher.dir/DependInfo.cmake
+* build/image_publisher/CMakeFiles/image_publisher.dir/cmake_clean.cmake
+* build/image_publisher/CMakeFiles/image_publisher_node.dir/DependInfo.cmake
+* build/image_publisher/CMakeFiles/image_publisher_node.dir/cmake_clean.cmake
+* build/image_publisher/CMakeFiles/image_publisher_uninstall.dir/DependInfo.cmake
+* build/image_publisher/CMakeFiles/image_publisher_uninstall.dir/cmake_clean.cmake
+* build/image_publisher/CMakeFiles/uninstall.dir/DependInfo.cmake
+* build/image_publisher/CMakeFiles/uninstall.dir/cmake_clean.cmake
+* build/image_publisher/ament_cmake_core/image_publisherConfig-version.cmake
+* build/image_publisher/ament_cmake_core/image_publisherConfig.cmake
+* build/image_publisher/ament_cmake_core/package.cmake
+* build/image_publisher/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake
+* build/image_publisher/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake
+* build/image_publisher/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake
+* build/image_publisher/ament_cmake_package_templates/templates.cmake
+* build/image_publisher/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+* install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+* install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+* install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+* install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake
+* install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake</system-out>
+</testsuite>

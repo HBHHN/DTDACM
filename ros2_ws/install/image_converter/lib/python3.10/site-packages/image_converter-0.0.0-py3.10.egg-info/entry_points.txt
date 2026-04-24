@@ -1,0 +1,3 @@
+[console_scripts]
+image_converter_pkg = image_converter.image_converter_pkg:main
+

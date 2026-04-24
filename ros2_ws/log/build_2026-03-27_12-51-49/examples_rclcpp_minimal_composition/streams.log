@@ -1,0 +1,35 @@
+[0.079s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/examples_rclcpp_minimal_composition -- -j3 -l3
+[0.317s] [35m[1mConsolidate compiler generated dependencies of target composition_nodes[0m
+[0.388s] [ 33%] Built target composition_nodes
+[0.463s] [35m[1mConsolidate compiler generated dependencies of target composition_publisher[0m
+[0.478s] [35m[1mConsolidate compiler generated dependencies of target composition_subscriber[0m
+[0.491s] [35m[1mConsolidate compiler generated dependencies of target composition_composed[0m
+[0.523s] [ 55%] Built target composition_publisher
+[0.550s] [ 77%] Built target composition_subscriber
+[0.564s] [100%] Built target composition_composed
+[0.663s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/examples_rclcpp_minimal_composition -- -j3 -l3
+[0.666s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bryan/Workspace/ros2_ws/build/examples_rclcpp_minimal_composition
+[0.718s] -- Install configuration: ""
+[0.718s] -- Execute custom install script
+[0.718s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[0.718s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[0.718s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[0.718s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[0.718s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[0.718s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[0.722s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[0.722s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[0.722s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[0.739s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[0.739s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[0.739s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[0.739s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[0.739s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[0.739s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[0.739s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[0.742s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[0.842s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[0.842s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[0.843s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[0.843s] -- Up-to-date symlink: /home/bryan/Workspace/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[0.890s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bryan/Workspace/ros2_ws/build/examples_rclcpp_minimal_composition

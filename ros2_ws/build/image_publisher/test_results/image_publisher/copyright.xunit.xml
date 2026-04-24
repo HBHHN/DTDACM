@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="image_publisher.copyright"
+  tests="45"
+  errors="0"
+  failures="33"
+  time="0.881"
+>
+  <testcase
+    name="build/image_publisher/CMakeFiles/3.22.1/CMakeCCompiler.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/3.22.1/CMakeSystem.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/Makefile.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/image_publisher.dir/DependInfo.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/image_publisher.dir/cmake_clean.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/image_publisher_node.dir/DependInfo.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/image_publisher_node.dir/cmake_clean.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/image_publisher_uninstall.dir/DependInfo.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/image_publisher_uninstall.dir/cmake_clean.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/uninstall.dir/DependInfo.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CMakeFiles/uninstall.dir/cmake_clean.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CTestCustom.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/CTestTestfile.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/ament_cmake_core/image_publisherConfig-version.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/ament_cmake_core/image_publisherConfig.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/ament_cmake_core/package.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/ament_cmake_package_templates/templates.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/image_publisher/cmake_install.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="include/image_publisher/image_publisher.hpp"
+    classname="image_publisher.copyright"/>
+  <testcase
+    name="include/image_publisher/visibility.h"
+    classname="image_publisher.copyright"/>
+  <testcase
+    name="install/_local_setup_util_ps1.py"
+    classname="image_publisher.copyright"
+  >
+      <failure message="copyright=Dirk Thomas (2016-2019), license=&lt;unknown&gt;"/>
+  </testcase>
+  <testcase
+    name="install/_local_setup_util_sh.py"
+    classname="image_publisher.copyright"
+  >
+      <failure message="copyright=Dirk Thomas (2016-2019), license=&lt;unknown&gt;"/>
+  </testcase>
+  <testcase
+    name="install/image_publisher/include/image_publisher/image_publisher.hpp"
+    classname="image_publisher.copyright"/>
+  <testcase
+    name="install/image_publisher/include/image_publisher/visibility.h"
+    classname="image_publisher.copyright"/>
+  <testcase
+    name="install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake"
+    classname="image_publisher.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/image_publisher/share/image_publisher/launch/image_publisher_file.launch.py"
+    classname="image_publisher.copyright"/>
+  <testcase
+    name="install/image_publisher/share/image_publisher/launch/image_publisher_mono.launch.py"
+    classname="image_publisher.copyright"/>
+  <testcase
+    name="install/image_publisher/share/image_publisher/launch/image_publisher_stereo.launch.py"
+    classname="image_publisher.copyright"/>
+  <testcase
+    name="launch/image_publisher_file.launch.py"
+    classname="image_publisher.copyright"/>
+  <testcase
+    name="launch/image_publisher_mono.launch.py"
+    classname="image_publisher.copyright"/>
+  <testcase
+    name="launch/image_publisher_stereo.launch.py"
+    classname="image_publisher.copyright"/>
+  <testcase
+    name="src/image_publisher.cpp"
+    classname="image_publisher.copyright"/>
+  <testcase
+    name="src/image_publisher_node.cpp"
+    classname="image_publisher.copyright"/>
+  <system-out>Checked files:
+* build/image_publisher/CMakeFiles/3.22.1/CMakeCCompiler.cmake
+* build/image_publisher/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake
+* build/image_publisher/CMakeFiles/3.22.1/CMakeSystem.cmake
+* build/image_publisher/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c
+* build/image_publisher/CMakeFiles/3.22.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+* build/image_publisher/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/image_publisher/CMakeFiles/Makefile.cmake
+* build/image_publisher/CMakeFiles/image_publisher.dir/DependInfo.cmake
+* build/image_publisher/CMakeFiles/image_publisher.dir/cmake_clean.cmake
+* build/image_publisher/CMakeFiles/image_publisher_node.dir/DependInfo.cmake
+* build/image_publisher/CMakeFiles/image_publisher_node.dir/cmake_clean.cmake
+* build/image_publisher/CMakeFiles/image_publisher_uninstall.dir/DependInfo.cmake
+* build/image_publisher/CMakeFiles/image_publisher_uninstall.dir/cmake_clean.cmake
+* build/image_publisher/CMakeFiles/uninstall.dir/DependInfo.cmake
+* build/image_publisher/CMakeFiles/uninstall.dir/cmake_clean.cmake
+* build/image_publisher/CTestCustom.cmake
+* build/image_publisher/CTestTestfile.cmake
+* build/image_publisher/ament_cmake_core/image_publisherConfig-version.cmake
+* build/image_publisher/ament_cmake_core/image_publisherConfig.cmake
+* build/image_publisher/ament_cmake_core/package.cmake
+* build/image_publisher/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake
+* build/image_publisher/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake
+* build/image_publisher/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake
+* build/image_publisher/ament_cmake_package_templates/templates.cmake
+* build/image_publisher/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+* build/image_publisher/cmake_install.cmake
+* include/image_publisher/image_publisher.hpp
+* include/image_publisher/visibility.h
+* install/_local_setup_util_ps1.py
+* install/_local_setup_util_sh.py
+* install/image_publisher/include/image_publisher/image_publisher.hpp
+* install/image_publisher/include/image_publisher/visibility.h
+* install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+* install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+* install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+* install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake
+* install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake
+* install/image_publisher/share/image_publisher/launch/image_publisher_file.launch.py
+* install/image_publisher/share/image_publisher/launch/image_publisher_mono.launch.py
+* install/image_publisher/share/image_publisher/launch/image_publisher_stereo.launch.py
+* launch/image_publisher_file.launch.py
+* launch/image_publisher_mono.launch.py
+* launch/image_publisher_stereo.launch.py
+* src/image_publisher.cpp
+* src/image_publisher_node.cpp</system-out>
+</testsuite>

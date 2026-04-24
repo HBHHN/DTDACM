@@ -1,0 +1,16 @@
+-- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_publisher':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/bryan/Workspace/ros2_ws/build/image_publisher/test_results/image_publisher/pep257.xunit.xml
+
+checking ./install/_local_setup_util_ps1.py
+checking ./install/_local_setup_util_sh.py
+checking ./install/image_publisher/share/image_publisher/launch/image_publisher_file.launch.py
+checking ./install/image_publisher/share/image_publisher/launch/image_publisher_mono.launch.py
+checking ./install/image_publisher/share/image_publisher/launch/image_publisher_stereo.launch.py
+checking ./launch/image_publisher_file.launch.py
+checking ./launch/image_publisher_mono.launch.py
+checking ./launch/image_publisher_stereo.launch.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_publisher/test_results/image_publisher/pep257.xunit.xml'

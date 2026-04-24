@@ -1,0 +1,20 @@
+[1.349s] Invoking command in '/home/bryan/Workspace/ros2_ws/sprint2': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/sprint2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sprint2 build --build-base /home/bryan/Workspace/ros2_ws/build/sprint2/build install --record /home/bryan/Workspace/ros2_ws/build/sprint2/install.log --single-version-externally-managed install_data
+[2.011s] running egg_info
+[2.047s] writing ../build/sprint2/sprint2.egg-info/PKG-INFO
+[2.048s] writing dependency_links to ../build/sprint2/sprint2.egg-info/dependency_links.txt
+[2.050s] writing entry points to ../build/sprint2/sprint2.egg-info/entry_points.txt
+[2.052s] writing requirements to ../build/sprint2/sprint2.egg-info/requires.txt
+[2.053s] writing top-level names to ../build/sprint2/sprint2.egg-info/top_level.txt
+[2.059s] reading manifest file '../build/sprint2/sprint2.egg-info/SOURCES.txt'
+[2.059s] writing manifest file '../build/sprint2/sprint2.egg-info/SOURCES.txt'
+[2.059s] running build
+[2.059s] running build_py
+[2.059s] running install
+[2.059s] running install_lib
+[2.059s] running install_data
+[2.059s] running install_egg_info
+[2.059s] removing '/home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages/sprint2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.059s] Copying ../build/sprint2/sprint2.egg-info to /home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages/sprint2-0.0.0-py3.10.egg-info
+[2.060s] running install_scripts
+[2.188s] writing list of installed files to '/home/bryan/Workspace/ros2_ws/build/sprint2/install.log'
+[2.491s] Invoked command in '/home/bryan/Workspace/ros2_ws/sprint2' returned '0': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/sprint2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sprint2 build --build-base /home/bryan/Workspace/ros2_ws/build/sprint2/build install --record /home/bryan/Workspace/ros2_ws/build/sprint2/install.log --single-version-externally-managed install_data

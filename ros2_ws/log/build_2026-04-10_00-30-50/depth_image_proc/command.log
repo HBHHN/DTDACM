@@ -1,0 +1,3 @@
+Invoking command in '/home/bryan/Workspace/ros2_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/ros2_ws/install/depth_image_proc
+Invoked command in '/home/bryan/Workspace/ros2_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bryan/Workspace/ros2_ws/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/ros2_ws/install/depth_image_proc
+Invoking command in '/home/bryan/Workspace/ros2_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/depth_image_proc -- -j3 -l3

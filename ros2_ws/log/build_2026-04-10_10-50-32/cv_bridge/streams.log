@@ -1,0 +1,120 @@
+[0.045s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/bryan/Workspace/ros2_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/ros2_ws/install/cv_bridge
+[0.409s] -- The C compiler identification is GNU 11.4.0
+[0.791s] -- The CXX compiler identification is GNU 11.4.0
+[0.814s] -- Detecting C compiler ABI info
+[1.065s] -- Detecting C compiler ABI info - done
+[1.084s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.086s] -- Detecting C compile features
+[1.087s] -- Detecting C compile features - done
+[1.090s] -- Detecting CXX compiler ABI info
+[1.474s] -- Detecting CXX compiler ABI info - done
+[1.526s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.526s] -- Detecting CXX compile features
+[1.527s] -- Detecting CXX compile features - done
+[1.540s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.416s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.071s] -- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[5.185s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python310 
+[5.186s] -- Found rcpputils: 2.4.6 (/opt/ros/humble/share/rcpputils/cmake)
+[5.214s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.359s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.359s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.359s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.436s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.216s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[7.445s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[7.445s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[9.595s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[9.595s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[11.200s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[11.237s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.513s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.531s] -- Looking for pthread.h
+[12.183s] -- Looking for pthread.h - found
+[12.183s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.217s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.218s] -- Found Threads: TRUE  
+[16.656s] -- Configuring done
+[16.786s] -- Generating done
+[16.819s] -- Build files have been written to: /home/bryan/Workspace/ros2_ws/build/cv_bridge
+[16.850s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/bryan/Workspace/ros2_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/ros2_ws/install/cv_bridge
+[16.879s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/cv_bridge -- -j3 -l3
+[17.280s] [  0%] Built target ament_cmake_python_copy_cv_bridge
+[17.518s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[18.858s] [ 12%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[19.342s] [ 12%] Built target gtest_main
+[19.544s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[30.212s] [ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[30.665s] [ 25%] Built target gtest
+[31.853s] running egg_info
+[31.853s] creating cv_bridge.egg-info
+[31.853s] writing cv_bridge.egg-info/PKG-INFO
+[31.853s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[31.854s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[31.854s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[31.857s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[31.858s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[32.077s] [ 25%] Built target ament_cmake_python_build_cv_bridge_egg
+[32.227s] [ 31%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[43.583s] [ 37%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[46.700s] [ 43%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[47.027s] [ 43%] Built target cv_bridge
+[47.076s] [ 50%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[58.683s] [ 56%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o[0m
+[63.258s] [ 62%] [32m[1mLinking CXX shared module boost/cv_bridge_boost.so[0m
+[63.491s] [ 62%] Built target cv_bridge_boost
+[63.557s] [ 68%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[65.002s] [ 75%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o[0m
+[66.477s] [ 81%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o[0m
+[67.864s] [ 87%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o[0m
+[69.779s] [ 93%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
+[72.154s] [100%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[72.737s] [100%] Built target cv_bridge-utest
+[72.773s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/cv_bridge -- -j3 -l3
+[72.773s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/bryan/Workspace/ros2_ws/build/cv_bridge
+[72.792s] -- Install configuration: ""
+[72.792s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[72.794s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[72.795s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info
+[72.795s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/SOURCES.txt
+[72.796s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/top_level.txt
+[72.799s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/dependency_links.txt
+[72.799s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge-3.2.1-py3.10.egg-info/PKG-INFO
+[72.799s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge
+[72.799s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py
+[72.799s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py
+[72.915s] Listing '/home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge'...
+[72.915s] Compiling '/home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/__init__.py'...
+[72.915s] Compiling '/home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/core.py'...
+[72.922s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+[72.923s] -- Set runtime path of "/home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so" to ""
+[72.923s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[72.923s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost/cv_bridge_boost.so
+[72.948s] -- Set runtime path of "/home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages/cv_bridge/boost/cv_bridge_boost.so" to ""
+[72.948s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/cv_bridge/include/cv_bridge
+[72.959s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge
+[72.959s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
+[72.959s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h
+[72.959s] -- Up-to-date: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+[72.959s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[72.959s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[72.960s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[72.961s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[72.962s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[72.962s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[72.962s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[72.962s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[72.962s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[72.962s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[72.962s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[72.962s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[72.962s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[72.962s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[72.963s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[72.963s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[72.963s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[72.963s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[72.963s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[72.968s] -- Installing: /home/bryan/Workspace/ros2_ws/install/cv_bridge/share/cv_bridge/package.xml
+[72.968s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bryan/Workspace/ros2_ws/install/sprint2:/home/bryan/Workspace/ros2_ws/install/launch_testing_examples:/home/bryan/Workspace/ros2_ws/install/image_converter:/home/bryan/Workspace/ros2_ws/install/first_package:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_service:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_guard_conditions:/home/bryan/Workspace/ros2_ws/install/examples_rclpy_executors:/home/bryan/Workspace/ros2_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/bryan/Workspace/ros2_ws/build/cv_bridge

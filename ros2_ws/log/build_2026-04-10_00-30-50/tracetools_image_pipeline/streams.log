@@ -1,0 +1,76 @@
+[0.066s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bryan/Workspace/ros2_ws/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline
+[0.165s] -- The C compiler identification is GNU 11.4.0
+[0.258s] -- The CXX compiler identification is GNU 11.4.0
+[0.266s] -- Detecting C compiler ABI info
+[0.562s] -- Detecting C compiler ABI info - done
+[0.564s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.571s] -- Detecting C compile features
+[0.572s] -- Detecting C compile features - done
+[0.572s] -- Detecting CXX compiler ABI info
+[0.750s] -- Detecting CXX compiler ABI info - done
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.762s] -- Detecting CXX compile features
+[0.763s] -- Detecting CXX compile features - done
+[0.827s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.187s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.456s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.457s] -- Checking for module 'lttng-ust'
+[1.470s] --   No package 'lttng-ust' found
+[1.471s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.641s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.646s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.647s] -- Configured cppcheck include dirs: 
+[1.647s] -- Configured cppcheck exclude dirs and/or files: 
+[1.687s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.693s] -- Configured cpplint exclude dirs and/or files: 
+[1.694s] -- Added test 'lint_cmake' to check CMake code style
+[1.696s] -- Added test 'uncrustify' to check C / C++ code style
+[1.696s] -- Configured uncrustify additional arguments: 
+[1.696s] -- Added test 'xmllint' to check XML markup files
+[1.698s] -- Configuring done
+[1.710s] -- Generating done
+[1.714s] -- Build files have been written to: /home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline
+[1.729s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bryan/Workspace/ros2_ws/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline
+[1.729s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline -- -j3 -l3
+[2.010s] [ 20%] [32mBuilding CXX object CMakeFiles/tracetools_image_pipeline.dir/src/utils.cpp.o[0m
+[2.021s] [ 40%] [32mBuilding C object CMakeFiles/tracetools_image_pipeline.dir/src/tracetools.c.o[0m
+[2.274s] [ 60%] [32m[1mLinking CXX shared library libtracetools_image_pipeline.so[0m
+[2.429s] [ 60%] Built target tracetools_image_pipeline
+[2.518s] [ 80%] [32mBuilding C object CMakeFiles/status.dir/src/status.c.o[0m
+[2.613s] [100%] [32m[1mLinking C executable status[0m
+[2.735s] [100%] Built target status
+[2.786s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline -- -j3 -l3
+[2.813s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline
+[2.828s] -- Install configuration: ""
+[2.829s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.sh
+[2.830s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.dsv
+[2.830s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/lib/tracetools_image_pipeline/status
+[2.830s] -- Set runtime path of "/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/lib/tracetools_image_pipeline/status" to ""
+[2.830s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/include
+[2.830s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline
+[2.830s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/visibility_control.hpp
+[2.830s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/utils.hpp
+[2.830s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/tracetools.h
+[2.833s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/config.h
+[2.834s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/lib/libtracetools_image_pipeline.so
+[2.849s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/ament_index/resource_index/package_run_dependencies/tracetools_image_pipeline
+[2.849s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/ament_index/resource_index/parent_prefix_path/tracetools_image_pipeline
+[2.849s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.sh
+[2.849s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.dsv
+[2.849s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.sh
+[2.849s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.dsv
+[2.849s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.bash
+[2.849s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.sh
+[2.849s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.zsh
+[2.850s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.dsv
+[2.850s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv
+[2.850s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/ament_index/resource_index/packages/tracetools_image_pipeline
+[2.850s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport.cmake
+[2.850s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport-noconfig.cmake
+[2.850s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_targets-extras.cmake
+[2.850s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.850s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_libraries-extras.cmake
+[2.850s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig.cmake
+[2.850s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig-version.cmake
+[2.850s] -- Installing: /home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.xml
+[2.850s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline

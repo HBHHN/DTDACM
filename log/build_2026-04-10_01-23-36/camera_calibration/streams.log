@@ -1,0 +1,25 @@
+[3.270s] Invoking command in '/home/bryan/Workspace/build/camera_calibration': PYTHONPATH=/home/bryan/Workspace/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bryan/Workspace/build/camera_calibration/build --no-deps symlink_data
+[4.931s] running develop
+[5.791s] running egg_info
+[5.791s] creating src/camera_calibration.egg-info
+[5.801s] writing src/camera_calibration.egg-info/PKG-INFO
+[5.802s] writing dependency_links to src/camera_calibration.egg-info/dependency_links.txt
+[5.807s] writing entry points to src/camera_calibration.egg-info/entry_points.txt
+[5.808s] writing requirements to src/camera_calibration.egg-info/requires.txt
+[5.808s] writing top-level names to src/camera_calibration.egg-info/top_level.txt
+[5.866s] writing manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[5.868s] reading manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[5.869s] writing manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[5.879s] running build_ext
+[5.879s] Creating /home/bryan/Workspace/install/camera_calibration/lib/python3.10/site-packages/camera-calibration.egg-link (link to src)
+[5.880s] Installing cameracalibrator script to /home/bryan/Workspace/install/camera_calibration/lib/camera_calibration
+[5.881s] Installing cameracheck script to /home/bryan/Workspace/install/camera_calibration/lib/camera_calibration
+[5.881s] 
+[5.881s] Installed /home/bryan/Workspace/build/camera_calibration/src
+[5.882s] running symlink_data
+[5.882s] creating /home/bryan/Workspace/install/camera_calibration/share/ament_index
+[5.882s] creating /home/bryan/Workspace/install/camera_calibration/share/ament_index/resource_index
+[5.882s] creating /home/bryan/Workspace/install/camera_calibration/share/ament_index/resource_index/packages
+[5.883s] symbolically linking /home/bryan/Workspace/build/camera_calibration/resource/camera_calibration -> /home/bryan/Workspace/install/camera_calibration/share/ament_index/resource_index/packages
+[5.883s] symbolically linking /home/bryan/Workspace/build/camera_calibration/package.xml -> /home/bryan/Workspace/install/camera_calibration/share/camera_calibration
+[5.995s] Invoked command in '/home/bryan/Workspace/build/camera_calibration' returned '0': PYTHONPATH=/home/bryan/Workspace/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bryan/Workspace/build/camera_calibration/build --no-deps symlink_data

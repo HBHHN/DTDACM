@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="image_rotate.xmllint"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.506"
+>
+  <testcase
+    name="package.xml"
+    classname="image_rotate.xmllint"/>
+  <system-out>Checked files:
+* package.xml</system-out>
+</testsuite>
