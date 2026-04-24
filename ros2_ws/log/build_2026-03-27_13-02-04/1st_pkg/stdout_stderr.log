@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating 1st_pkg.egg-info
+writing 1st_pkg.egg-info/PKG-INFO
+writing dependency_links to 1st_pkg.egg-info/dependency_links.txt
+writing entry points to 1st_pkg.egg-info/entry_points.txt
+writing requirements to 1st_pkg.egg-info/requires.txt
+writing top-level names to 1st_pkg.egg-info/top_level.txt
+writing manifest file '1st_pkg.egg-info/SOURCES.txt'
+reading manifest file '1st_pkg.egg-info/SOURCES.txt'
+writing manifest file '1st_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hannah/Workspace/ros2_ws/install/1st_pkg/lib/python3.10/site-packages/1st-pkg.egg-link (link to .)
+
+Installed /home/hannah/Workspace/ros2_ws/build/1st_pkg
+running symlink_data
+creating /home/hannah/Workspace/ros2_ws/install/1st_pkg/share/ament_index
+creating /home/hannah/Workspace/ros2_ws/install/1st_pkg/share/ament_index/resource_index
+creating /home/hannah/Workspace/ros2_ws/install/1st_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/hannah/Workspace/ros2_ws/build/1st_pkg/resource/1st_pkg -> /home/hannah/Workspace/ros2_ws/install/1st_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/hannah/Workspace/ros2_ws/build/1st_pkg/package.xml -> /home/hannah/Workspace/ros2_ws/install/1st_pkg/share/1st_pkg
