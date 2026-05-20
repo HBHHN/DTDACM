@@ -1,0 +1,32 @@
+[2.902s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/ros2_sumo': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/ros2_sumo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/ros2_sumo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bryan/Workspace/ros2_ws/build/ros2_sumo/build --no-deps symlink_data
+[4.190s] running develop
+[4.798s] running egg_info
+[4.802s] creating ros2_sumo.egg-info
+[4.803s] writing ros2_sumo.egg-info/PKG-INFO
+[4.803s] writing dependency_links to ros2_sumo.egg-info/dependency_links.txt
+[4.803s] writing entry points to ros2_sumo.egg-info/entry_points.txt
+[4.810s] writing requirements to ros2_sumo.egg-info/requires.txt
+[4.810s] writing top-level names to ros2_sumo.egg-info/top_level.txt
+[4.810s] writing manifest file 'ros2_sumo.egg-info/SOURCES.txt'
+[4.811s] reading manifest file 'ros2_sumo.egg-info/SOURCES.txt'
+[4.816s] writing manifest file 'ros2_sumo.egg-info/SOURCES.txt'
+[4.825s] running build_ext
+[4.828s] Creating /home/bryan/Workspace/ros2_ws/install/ros2_sumo/lib/python3.10/site-packages/ros2-sumo.egg-link (link to .)
+[4.833s] Installing arduino_read_write script to /home/bryan/Workspace/ros2_ws/install/ros2_sumo/lib/ros2_sumo
+[4.833s] Installing multi_sim_publisher script to /home/bryan/Workspace/ros2_ws/install/ros2_sumo/lib/ros2_sumo
+[4.940s] Installing traffic_lights_publisher script to /home/bryan/Workspace/ros2_ws/install/ros2_sumo/lib/ros2_sumo
+[4.946s] Installing vehicle_publisher script to /home/bryan/Workspace/ros2_ws/install/ros2_sumo/lib/ros2_sumo
+[4.947s] 
+[4.947s] Installed /home/bryan/Workspace/ros2_ws/build/ros2_sumo
+[4.947s] running symlink_data
+[4.948s] creating /home/bryan/Workspace/ros2_ws/install/ros2_sumo/share/ament_index
+[4.948s] creating /home/bryan/Workspace/ros2_ws/install/ros2_sumo/share/ament_index/resource_index
+[4.948s] creating /home/bryan/Workspace/ros2_ws/install/ros2_sumo/share/ament_index/resource_index/packages
+[4.948s] symbolically linking /home/bryan/Workspace/ros2_ws/build/ros2_sumo/resource/ros2_sumo -> /home/bryan/Workspace/ros2_ws/install/ros2_sumo/share/ament_index/resource_index/packages
+[4.948s] symbolically linking /home/bryan/Workspace/ros2_ws/build/ros2_sumo/package.xml -> /home/bryan/Workspace/ros2_ws/install/ros2_sumo/share/ros2_sumo
+[4.949s] creating /home/bryan/Workspace/ros2_ws/install/ros2_sumo/share/ros2_sumo/launch
+[4.949s] symbolically linking /home/bryan/Workspace/ros2_ws/build/ros2_sumo/launch/vehicle_publisher_with_rviz2_launch.py -> /home/bryan/Workspace/ros2_ws/install/ros2_sumo/share/ros2_sumo/launch
+[4.949s] creating /home/bryan/Workspace/ros2_ws/install/ros2_sumo/share/ros2_sumo/config
+[4.949s] symbolically linking /home/bryan/Workspace/ros2_ws/build/ros2_sumo/config/vehicle_publisher_rviz_config.rviz -> /home/bryan/Workspace/ros2_ws/install/ros2_sumo/share/ros2_sumo/config
+[4.949s] creating /home/bryan/Workspace/ros2_ws/install/ros2_sumo/share/ros2_sumo/scenarios
+[4.954s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/ros2_sumo' returned '0': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/ros2_sumo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/ros2_sumo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bryan/Workspace/ros2_ws/build/ros2_sumo/build --no-deps symlink_data

@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating sprint2.egg-info
+writing sprint2.egg-info/PKG-INFO
+writing dependency_links to sprint2.egg-info/dependency_links.txt
+writing entry points to sprint2.egg-info/entry_points.txt
+writing requirements to sprint2.egg-info/requires.txt
+writing top-level names to sprint2.egg-info/top_level.txt
+writing manifest file 'sprint2.egg-info/SOURCES.txt'
+reading manifest file 'sprint2.egg-info/SOURCES.txt'
+writing manifest file 'sprint2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages/sprint2.egg-link (link to .)
+
+Installed /home/bryan/Workspace/ros2_ws/build/sprint2
+running symlink_data
+creating /home/bryan/Workspace/ros2_ws/install/sprint2/share/ament_index
+creating /home/bryan/Workspace/ros2_ws/install/sprint2/share/ament_index/resource_index
+creating /home/bryan/Workspace/ros2_ws/install/sprint2/share/ament_index/resource_index/packages
+symbolically linking /home/bryan/Workspace/ros2_ws/build/sprint2/resource/sprint2 -> /home/bryan/Workspace/ros2_ws/install/sprint2/share/ament_index/resource_index/packages
+symbolically linking /home/bryan/Workspace/ros2_ws/build/sprint2/package.xml -> /home/bryan/Workspace/ros2_ws/install/sprint2/share/sprint2

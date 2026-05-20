@@ -252,8 +252,8 @@ libdepth_image_proc.so: CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzi_rad
 libdepth_image_proc.so: CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb_radial.cpp.o
 libdepth_image_proc.so: CMakeFiles/depth_image_proc.dir/src/register.cpp.o
 libdepth_image_proc.so: CMakeFiles/depth_image_proc.dir/build.make
-libdepth_image_proc.so: /opt/ros/humble/lib/libcv_bridge.so
-libdepth_image_proc.so: /opt/ros/humble/lib/libimage_geometry.so
+libdepth_image_proc.so: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+libdepth_image_proc.so: /home/bryan/Workspace/ros2_ws/install/image_geometry/lib/libimage_geometry.so
 libdepth_image_proc.so: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 libdepth_image_proc.so: /opt/ros/humble/lib/libcomponent_manager.so
 libdepth_image_proc.so: /opt/ros/humble/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so

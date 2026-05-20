@@ -92,8 +92,8 @@ image_proc_EXTERNAL_OBJECTS =
 
 libimage_proc.so: CMakeFiles/image_proc.dir/src/image_proc/processor.cpp.o
 libimage_proc.so: CMakeFiles/image_proc.dir/build.make
-libimage_proc.so: /opt/ros/humble/lib/libcv_bridge.so
-libimage_proc.so: /opt/ros/humble/lib/libimage_geometry.so
+libimage_proc.so: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+libimage_proc.so: /home/bryan/Workspace/ros2_ws/install/image_geometry/lib/libimage_geometry.so
 libimage_proc.so: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 libimage_proc.so: /opt/ros/humble/lib/libcomponent_manager.so
 libimage_proc.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so

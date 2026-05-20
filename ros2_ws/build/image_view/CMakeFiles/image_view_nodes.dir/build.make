@@ -173,7 +173,7 @@ libimage_view_nodes.so: CMakeFiles/image_view_nodes.dir/src/stereo_view_node.cpp
 libimage_view_nodes.so: CMakeFiles/image_view_nodes.dir/src/video_recorder_node.cpp.o
 libimage_view_nodes.so: CMakeFiles/image_view_nodes.dir/build.make
 libimage_view_nodes.so: /opt/ros/humble/lib/libcamera_calibration_parsers.so
-libimage_view_nodes.so: /opt/ros/humble/lib/libcv_bridge.so
+libimage_view_nodes.so: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
 libimage_view_nodes.so: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 libimage_view_nodes.so: /opt/ros/humble/lib/libmessage_filters.so
 libimage_view_nodes.so: /opt/ros/humble/lib/libcomponent_manager.so

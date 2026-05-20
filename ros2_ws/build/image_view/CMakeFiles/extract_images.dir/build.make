@@ -95,7 +95,7 @@ extract_images: CMakeFiles/extract_images.dir/build.make
 extract_images: libimage_view_nodes.so
 extract_images: /opt/ros/humble/lib/libcamera_calibration_parsers.so
 extract_images: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
-extract_images: /opt/ros/humble/lib/libcv_bridge.so
+extract_images: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
 extract_images: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 extract_images: /opt/ros/humble/lib/libmessage_filters.so
 extract_images: /opt/ros/humble/lib/libcomponent_manager.so

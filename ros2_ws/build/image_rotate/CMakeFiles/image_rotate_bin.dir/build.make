@@ -93,7 +93,7 @@ image_rotate_bin_EXTERNAL_OBJECTS =
 image_rotate: CMakeFiles/image_rotate_bin.dir/src/image_rotate.cpp.o
 image_rotate: CMakeFiles/image_rotate_bin.dir/build.make
 image_rotate: libimage_rotate.so
-image_rotate: /opt/ros/humble/lib/libcv_bridge.so
+image_rotate: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
 image_rotate: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 image_rotate: /opt/ros/humble/lib/libcomponent_manager.so
 image_rotate: /opt/ros/humble/lib/libclass_loader.so

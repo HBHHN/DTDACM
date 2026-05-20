@@ -141,8 +141,8 @@ libresize.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.5.4d
 libresize.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.5.4d
 libresize.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.5.4d
 libresize.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
-libresize.so: /opt/ros/humble/lib/libcv_bridge.so
-libresize.so: /opt/ros/humble/lib/libimage_geometry.so
+libresize.so: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+libresize.so: /home/bryan/Workspace/ros2_ws/install/image_geometry/lib/libimage_geometry.so
 libresize.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.5.4d
 libresize.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.5.4d
 libresize.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.5.4d

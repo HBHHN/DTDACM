@@ -4,3 +4,6 @@ source;share/image_converter/hook/pythonpath.sh
 source;share/image_converter/hook/ament_prefix_path.ps1
 source;share/image_converter/hook/ament_prefix_path.dsv
 source;share/image_converter/hook/ament_prefix_path.sh
+source;../../build/image_converter/share/image_converter/hook/pythonpath_develop.ps1
+source;../../build/image_converter/share/image_converter/hook/pythonpath_develop.dsv
+source;../../build/image_converter/share/image_converter/hook/pythonpath_develop.sh

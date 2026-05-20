@@ -1,0 +1,3 @@
+[0.114s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/tracetools_image_pipeline -- -j3 -l3
+[0.304s] [ 60%] Built target tracetools_image_pipeline
+[0.364s] [100%] Built target status

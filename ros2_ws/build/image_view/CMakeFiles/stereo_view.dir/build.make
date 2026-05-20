@@ -95,7 +95,7 @@ stereo_view: CMakeFiles/stereo_view.dir/build.make
 stereo_view: libimage_view_nodes.so
 stereo_view: /opt/ros/humble/lib/libcamera_calibration_parsers.so
 stereo_view: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
-stereo_view: /opt/ros/humble/lib/libcv_bridge.so
+stereo_view: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
 stereo_view: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 stereo_view: /opt/ros/humble/lib/libmessage_filters.so
 stereo_view: /opt/ros/humble/lib/libcomponent_manager.so

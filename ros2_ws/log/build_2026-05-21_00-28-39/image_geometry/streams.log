@@ -1,0 +1,10 @@
+[0.035s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/image_geometry -- -j3 -l3
+[0.224s] [ 22%] Built target gtest_main
+[0.231s] failed to create symbolic link '/home/bryan/Workspace/ros2_ws/build/image_geometry/ament_cmake_python/image_geometry/image_geometry' because existing path cannot be removed: Is a directory
+[0.247s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_image_geometry] Error 1
+[0.247s] gmake[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/all] Error 2
+[0.247s] gmake[1]: *** Waiting for unfinished jobs....
+[0.289s] [ 55%] Built target image_geometry
+[0.292s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.343s] [ 77%] Built target gtest
+[0.344s] gmake: *** [Makefile:146: all] Error 2

@@ -94,7 +94,7 @@ image_publisher_node: CMakeFiles/image_publisher_node.dir/src/image_publisher_no
 image_publisher_node: CMakeFiles/image_publisher_node.dir/build.make
 image_publisher_node: libimage_publisher.so
 image_publisher_node: /opt/ros/humble/lib/libcamera_info_manager.so
-image_publisher_node: /opt/ros/humble/lib/libcv_bridge.so
+image_publisher_node: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
 image_publisher_node: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 image_publisher_node: /opt/ros/humble/lib/libcomponent_manager.so
 image_publisher_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so

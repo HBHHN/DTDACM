@@ -95,7 +95,7 @@ video_recorder: CMakeFiles/video_recorder.dir/build.make
 video_recorder: libimage_view_nodes.so
 video_recorder: /opt/ros/humble/lib/libcamera_calibration_parsers.so
 video_recorder: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
-video_recorder: /opt/ros/humble/lib/libcv_bridge.so
+video_recorder: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
 video_recorder: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 video_recorder: /opt/ros/humble/lib/libmessage_filters.so
 video_recorder: /opt/ros/humble/lib/libcomponent_manager.so

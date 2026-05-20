@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating image_converter.egg-info
+writing image_converter.egg-info/PKG-INFO
+writing dependency_links to image_converter.egg-info/dependency_links.txt
+writing entry points to image_converter.egg-info/entry_points.txt
+writing requirements to image_converter.egg-info/requires.txt
+writing top-level names to image_converter.egg-info/top_level.txt
+writing manifest file 'image_converter.egg-info/SOURCES.txt'
+reading manifest file 'image_converter.egg-info/SOURCES.txt'
+writing manifest file 'image_converter.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bryan/Workspace/ros2_ws/install/image_converter/lib/python3.10/site-packages/image-converter.egg-link (link to .)
+Installing image_converter_pkg script to /home/bryan/Workspace/ros2_ws/install/image_converter/lib/image_converter
+
+Installed /home/bryan/Workspace/ros2_ws/build/image_converter
+running symlink_data
+creating /home/bryan/Workspace/ros2_ws/install/image_converter/share/ament_index
+creating /home/bryan/Workspace/ros2_ws/install/image_converter/share/ament_index/resource_index
+creating /home/bryan/Workspace/ros2_ws/install/image_converter/share/ament_index/resource_index/packages
+symbolically linking /home/bryan/Workspace/ros2_ws/build/image_converter/resource/image_converter -> /home/bryan/Workspace/ros2_ws/install/image_converter/share/ament_index/resource_index/packages
+symbolically linking /home/bryan/Workspace/ros2_ws/build/image_converter/package.xml -> /home/bryan/Workspace/ros2_ws/install/image_converter/share/image_converter
+creating /home/bryan/Workspace/ros2_ws/install/image_converter/share/image_converter/launch
+symbolically linking /home/bryan/Workspace/ros2_ws/build/image_converter/launch/image_conversion_launch.py -> /home/bryan/Workspace/ros2_ws/install/image_converter/share/image_converter/launch

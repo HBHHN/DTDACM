@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/bryan/Workspace/ros2_ws/build/stereo_image_proc/ament_cmake_environment_hooks/path.dsv

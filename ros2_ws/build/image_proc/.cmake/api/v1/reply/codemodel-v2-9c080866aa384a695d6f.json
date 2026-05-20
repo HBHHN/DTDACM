@@ -1,0 +1,178 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ed8359a4577f317f2a75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "image_proc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_decimate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_decimate-872987dcf7abd7e04149.json",
+					"name" : "crop_decimate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_decimate_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_decimate_node-67fbabd8dcc068026b77.json",
+					"name" : "crop_decimate_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_non_zero::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_non_zero-fd741e79687c4c4e7425.json",
+					"name" : "crop_non_zero",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "crop_non_zero_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-crop_non_zero_node-68e601b210be1ba3d9ff.json",
+					"name" : "crop_non_zero_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "debayer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-debayer-a5a6bc3588e4dab83c40.json",
+					"name" : "debayer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "debayer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-debayer_node-bfed886c307c092a55bc.json",
+					"name" : "debayer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_proc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_proc-48ef817b3e566b2f3d3e.json",
+					"name" : "image_proc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_proc_exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_proc_exe-eee7734ba44821b50cb5.json",
+					"name" : "image_proc_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_proc_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_proc_uninstall-d6b92c5d13e891b1bce8.json",
+					"name" : "image_proc_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rectify::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rectify-c40ede19dc287b277ebf.json",
+					"name" : "rectify",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rectify_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rectify_node-b1190df09e0fe29a902d.json",
+					"name" : "rectify_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resize::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resize-0732ce6367d27a33d94c.json",
+					"name" : "resize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "resize_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-resize_node-b2ba01bf8e89355de9fa.json",
+					"name" : "resize_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-afa9cd9773fefae5cd6a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bryan/Workspace/ros2_ws/build/image_proc",
+		"source" : "/home/bryan/Workspace/ros2_ws/image_pipeline/image_proc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

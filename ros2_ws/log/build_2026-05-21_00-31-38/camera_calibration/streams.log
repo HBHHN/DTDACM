@@ -1,0 +1,25 @@
+[1.294s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/camera_calibration': AMENT_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/bryan/Workspace/ros2_ws/install/image_geometry/lib:/home/bryan/Workspace/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bryan/Workspace/ros2_ws/build/camera_calibration/build --no-deps symlink_data
+[1.703s] running develop
+[2.231s] running egg_info
+[2.231s] creating src/camera_calibration.egg-info
+[2.231s] writing src/camera_calibration.egg-info/PKG-INFO
+[2.231s] writing dependency_links to src/camera_calibration.egg-info/dependency_links.txt
+[2.231s] writing entry points to src/camera_calibration.egg-info/entry_points.txt
+[2.231s] writing requirements to src/camera_calibration.egg-info/requires.txt
+[2.231s] writing top-level names to src/camera_calibration.egg-info/top_level.txt
+[2.232s] writing manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[2.240s] reading manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[2.240s] writing manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[2.244s] running build_ext
+[2.244s] Creating /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages/camera-calibration.egg-link (link to src)
+[2.245s] Installing cameracalibrator script to /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/camera_calibration
+[2.246s] Installing cameracheck script to /home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/camera_calibration
+[2.246s] 
+[2.246s] Installed /home/bryan/Workspace/ros2_ws/build/camera_calibration/src
+[2.246s] running symlink_data
+[2.247s] creating /home/bryan/Workspace/ros2_ws/install/camera_calibration/share/ament_index
+[2.247s] creating /home/bryan/Workspace/ros2_ws/install/camera_calibration/share/ament_index/resource_index
+[2.248s] creating /home/bryan/Workspace/ros2_ws/install/camera_calibration/share/ament_index/resource_index/packages
+[2.248s] symbolically linking /home/bryan/Workspace/ros2_ws/build/camera_calibration/resource/camera_calibration -> /home/bryan/Workspace/ros2_ws/install/camera_calibration/share/ament_index/resource_index/packages
+[2.252s] symbolically linking /home/bryan/Workspace/ros2_ws/build/camera_calibration/package.xml -> /home/bryan/Workspace/ros2_ws/install/camera_calibration/share/camera_calibration
+[2.320s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/camera_calibration' returned '0': AMENT_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/bryan/Workspace/ros2_ws/install/image_geometry/lib:/home/bryan/Workspace/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/camera_calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/camera_calibration/lib/python3.10/site-packages:/home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bryan/Workspace/ros2_ws/build/camera_calibration/build --no-deps symlink_data

@@ -93,8 +93,8 @@ rectify_EXTERNAL_OBJECTS =
 librectify.so: CMakeFiles/rectify.dir/src/rectify.cpp.o
 librectify.so: CMakeFiles/rectify.dir/build.make
 librectify.so: libimage_proc.so
-librectify.so: /opt/ros/humble/lib/libcv_bridge.so
-librectify.so: /opt/ros/humble/lib/libimage_geometry.so
+librectify.so: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
+librectify.so: /home/bryan/Workspace/ros2_ws/install/image_geometry/lib/libimage_geometry.so
 librectify.so: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 librectify.so: /opt/ros/humble/lib/libcomponent_manager.so
 librectify.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so

@@ -92,7 +92,7 @@ image_publisher_EXTERNAL_OBJECTS =
 
 libimage_publisher.so: CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o
 libimage_publisher.so: CMakeFiles/image_publisher.dir/build.make
-libimage_publisher.so: /opt/ros/humble/lib/libcv_bridge.so
+libimage_publisher.so: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
 libimage_publisher.so: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 libimage_publisher.so: /opt/ros/humble/lib/libcomponent_manager.so
 libimage_publisher.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d

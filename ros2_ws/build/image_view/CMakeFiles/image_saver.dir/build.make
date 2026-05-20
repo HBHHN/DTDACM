@@ -95,7 +95,7 @@ image_saver: CMakeFiles/image_saver.dir/build.make
 image_saver: libimage_view_nodes.so
 image_saver: /opt/ros/humble/lib/libcamera_calibration_parsers.so
 image_saver: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
-image_saver: /opt/ros/humble/lib/libcv_bridge.so
+image_saver: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
 image_saver: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 image_saver: /opt/ros/humble/lib/libmessage_filters.so
 image_saver: /opt/ros/humble/lib/libcomponent_manager.so

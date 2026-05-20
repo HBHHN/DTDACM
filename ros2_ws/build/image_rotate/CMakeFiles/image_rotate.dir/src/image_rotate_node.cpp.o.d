@@ -710,7 +710,7 @@ CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o: \
  /opt/ros/humble/include/image_transport/image_transport/subscriber.hpp \
  /opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp \
  /home/bryan/Workspace/ros2_ws/image_pipeline/image_rotate/include/image_rotate/visibility.h \
- /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
+ /home/bryan/Workspace/ros2_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp \
@@ -766,7 +766,7 @@ CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o: \
  /usr/include/opencv4/opencv2/imgproc/types_c.h \
  /usr/include/opencv4/opencv2/core/core_c.h \
  /usr/include/opencv4/opencv2/core/types_c.h \
- /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge_export.h \
+ /home/bryan/Workspace/ros2_ws/build/cv_bridge/src/cv_bridge/cv_bridge_export.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
  /opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp \

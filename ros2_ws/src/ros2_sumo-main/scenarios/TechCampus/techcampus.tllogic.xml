@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+  
+  <tlLogic id="24950122" programID="my_techcampus_program_0" offset="0" type="static">
+    <phase duration="31" state="GGggrrrrGGggrrrr"/>
+    <phase duration="5"  state="yyggrrrryyggrrrr"/>
+    <phase duration="6"  state="rrGGrrrrrrGGrrrr"/>
+    <phase duration="5"  state="rryyrrrrrryyrrrr"/>
+    <phase duration="31" state="rrrrGGggrrrrGGgg"/>
+    <phase duration="5"  state="rrrryyggrrrryygg"/>
+    <phase duration="6"  state="rrrrrrGGrrrrrrGG"/>
+    <phase duration="5"  state="rrrrrryyrrrrrryy"/>
+  </tlLogic>
+
+  <tlLogic id="24950122" programID="my_techcampus_program_1" offset="0" type="static">
+    <phase duration="31" state="GG"/>
+    <phase duration="5"  state="rr"/>
+    <phase duration="6"  state="yy"/>
+    <phase duration="5"  state="gr"/>
+  </tlLogic>
+</additional>

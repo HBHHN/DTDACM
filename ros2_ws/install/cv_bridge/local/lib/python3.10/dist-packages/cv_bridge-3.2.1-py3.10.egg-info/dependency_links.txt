@@ -1,1 +1,1 @@
-
+/home/bryan/Workspace/ros2_ws/build/cv_bridge/ament_cmake_python/cv_bridge/cv_bridge.egg-info/dependency_links.txt

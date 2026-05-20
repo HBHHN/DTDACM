@@ -1,0 +1,11 @@
+[0.026s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/cv_bridge -- -j3 -l3
+[0.190s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.219s] [35m[1mConsolidate compiler generated dependencies of target cv_bridge[0m
+[0.241s] failed to create symbolic link '/home/bryan/Workspace/ros2_ws/build/cv_bridge/ament_cmake_python/cv_bridge/cv_bridge' because existing path cannot be removed: Is a directory
+[0.241s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_cv_bridge] Error 1
+[0.241s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/all] Error 2
+[0.241s] gmake[1]: *** Waiting for unfinished jobs....
+[0.261s] [ 12%] Built target gtest_main
+[0.314s] [ 31%] Built target cv_bridge
+[0.315s] gmake: *** [Makefile:146: all] Error 2
+[0.339s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/cv_bridge' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/cv_bridge -- -j3 -l3

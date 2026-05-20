@@ -1,9 +1,0 @@
--- run_test.py: invoking following command in '/home/bryan/Workspace/ros2_ws/image_pipeline/image_rotate':
- - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/bryan/Workspace/ros2_ws/build/image_rotate/test_results/image_rotate/pep257.xunit.xml
-
-checking ./launch/image_rotate.launch.py
-No problems found
-
-
--- run_test.py: return code 0
--- run_test.py: verify result file '/home/bryan/Workspace/ros2_ws/build/image_rotate/test_results/image_rotate/pep257.xunit.xml'

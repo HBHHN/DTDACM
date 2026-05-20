@@ -1,0 +1,4 @@
+[ 22%] Built target gtest_main
+[ 55%] Built target image_geometry
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 77%] Built target gtest

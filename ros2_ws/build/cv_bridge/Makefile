@@ -198,17 +198,17 @@ cv_bridge_uninstall/fast:
 .PHONY : cv_bridge_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_cv_bridge
+# Target rules for targets named ament_cmake_python_symlink_cv_bridge
 
 # Build rule for target.
-ament_cmake_python_copy_cv_bridge: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_cv_bridge
-.PHONY : ament_cmake_python_copy_cv_bridge
+ament_cmake_python_symlink_cv_bridge: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_cv_bridge
+.PHONY : ament_cmake_python_symlink_cv_bridge
 
 # fast build rule for target.
-ament_cmake_python_copy_cv_bridge/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_cv_bridge.dir/build.make CMakeFiles/ament_cmake_python_copy_cv_bridge.dir/build
-.PHONY : ament_cmake_python_copy_cv_bridge/fast
+ament_cmake_python_symlink_cv_bridge/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/build.make CMakeFiles/ament_cmake_python_symlink_cv_bridge.dir/build
+.PHONY : ament_cmake_python_symlink_cv_bridge/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_cv_bridge_egg
@@ -302,7 +302,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_cv_bridge_egg"
-	@echo "... ament_cmake_python_copy_cv_bridge"
+	@echo "... ament_cmake_python_symlink_cv_bridge"
 	@echo "... cv_bridge_uninstall"
 	@echo "... uninstall"
 	@echo "... cv_bridge"

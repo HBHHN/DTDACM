@@ -1,0 +1,23 @@
+[3.248s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/sprint2': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/sprint2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bryan/Workspace/ros2_ws/build/sprint2/build --no-deps symlink_data
+[4.306s] running develop
+[5.128s] running egg_info
+[5.132s] creating sprint2.egg-info
+[5.132s] writing sprint2.egg-info/PKG-INFO
+[5.132s] writing dependency_links to sprint2.egg-info/dependency_links.txt
+[5.133s] writing entry points to sprint2.egg-info/entry_points.txt
+[5.133s] writing requirements to sprint2.egg-info/requires.txt
+[5.133s] writing top-level names to sprint2.egg-info/top_level.txt
+[5.134s] writing manifest file 'sprint2.egg-info/SOURCES.txt'
+[5.134s] reading manifest file 'sprint2.egg-info/SOURCES.txt'
+[5.134s] writing manifest file 'sprint2.egg-info/SOURCES.txt'
+[5.249s] running build_ext
+[5.250s] Creating /home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages/sprint2.egg-link (link to .)
+[5.251s] 
+[5.251s] Installed /home/bryan/Workspace/ros2_ws/build/sprint2
+[5.251s] running symlink_data
+[5.251s] creating /home/bryan/Workspace/ros2_ws/install/sprint2/share/ament_index
+[5.251s] creating /home/bryan/Workspace/ros2_ws/install/sprint2/share/ament_index/resource_index
+[5.251s] creating /home/bryan/Workspace/ros2_ws/install/sprint2/share/ament_index/resource_index/packages
+[5.252s] symbolically linking /home/bryan/Workspace/ros2_ws/build/sprint2/resource/sprint2 -> /home/bryan/Workspace/ros2_ws/install/sprint2/share/ament_index/resource_index/packages
+[5.252s] symbolically linking /home/bryan/Workspace/ros2_ws/build/sprint2/package.xml -> /home/bryan/Workspace/ros2_ws/install/sprint2/share/sprint2
+[5.265s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/sprint2' returned '0': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/sprint2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/sprint2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bryan/Workspace/ros2_ws/build/sprint2/build --no-deps symlink_data

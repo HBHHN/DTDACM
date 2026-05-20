@@ -1,0 +1,23 @@
+[0.973s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/first_package': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bryan/Workspace/ros2_ws/build/first_package/build --no-deps symlink_data
+[0.975s] running develop
+[1.207s] running egg_info
+[1.208s] creating first_package.egg-info
+[1.209s] writing first_package.egg-info/PKG-INFO
+[1.210s] writing dependency_links to first_package.egg-info/dependency_links.txt
+[1.210s] writing entry points to first_package.egg-info/entry_points.txt
+[1.210s] writing requirements to first_package.egg-info/requires.txt
+[1.210s] writing top-level names to first_package.egg-info/top_level.txt
+[1.211s] writing manifest file 'first_package.egg-info/SOURCES.txt'
+[1.213s] reading manifest file 'first_package.egg-info/SOURCES.txt'
+[1.213s] writing manifest file 'first_package.egg-info/SOURCES.txt'
+[1.216s] running build_ext
+[1.216s] Creating /home/bryan/Workspace/ros2_ws/install/first_package/lib/python3.10/site-packages/first-package.egg-link (link to .)
+[1.218s] 
+[1.218s] Installed /home/bryan/Workspace/ros2_ws/build/first_package
+[1.218s] running symlink_data
+[1.219s] creating /home/bryan/Workspace/ros2_ws/install/first_package/share/ament_index
+[1.253s] creating /home/bryan/Workspace/ros2_ws/install/first_package/share/ament_index/resource_index
+[1.253s] creating /home/bryan/Workspace/ros2_ws/install/first_package/share/ament_index/resource_index/packages
+[1.253s] symbolically linking /home/bryan/Workspace/ros2_ws/build/first_package/resource/first_package -> /home/bryan/Workspace/ros2_ws/install/first_package/share/ament_index/resource_index/packages
+[1.253s] symbolically linking /home/bryan/Workspace/ros2_ws/build/first_package/package.xml -> /home/bryan/Workspace/ros2_ws/install/first_package/share/first_package
+[1.269s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/first_package' returned '0': PYTHONPATH=/home/bryan/Workspace/ros2_ws/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bryan/Workspace/ros2_ws/install/first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/bryan/Workspace/ros2_ws/build/first_package/build --no-deps symlink_data

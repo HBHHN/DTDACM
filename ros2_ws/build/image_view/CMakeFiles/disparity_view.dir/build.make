@@ -95,7 +95,7 @@ disparity_view: CMakeFiles/disparity_view.dir/build.make
 disparity_view: libimage_view_nodes.so
 disparity_view: /opt/ros/humble/lib/libcamera_calibration_parsers.so
 disparity_view: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
-disparity_view: /opt/ros/humble/lib/libcv_bridge.so
+disparity_view: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
 disparity_view: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 disparity_view: /opt/ros/humble/lib/libmessage_filters.so
 disparity_view: /opt/ros/humble/lib/libcomponent_manager.so

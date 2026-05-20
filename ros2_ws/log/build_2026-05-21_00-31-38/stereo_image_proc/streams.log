@@ -1,0 +1,100 @@
+[0.069s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/stereo_image_proc': AMENT_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/lib:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/lib:/home/bryan/Workspace/ros2_ws/install/image_geometry/lib:/home/bryan/Workspace/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/bin:${PATH} PYTHONPATH=/home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bryan/Workspace/ros2_ws/image_pipeline/stereo_image_proc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/ros2_ws/install/stereo_image_proc
+[0.260s] -- The C compiler identification is GNU 11.4.0
+[0.418s] -- The CXX compiler identification is GNU 11.4.0
+[0.440s] -- Detecting C compiler ABI info
+[0.640s] -- Detecting C compiler ABI info - done
+[0.659s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.659s] -- Detecting C compile features
+[0.659s] -- Detecting C compile features - done
+[0.662s] -- Detecting CXX compiler ABI info
+[0.885s] -- Detecting CXX compiler ABI info - done
+[0.913s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.913s] -- Detecting CXX compile features
+[0.913s] -- Detecting CXX compile features - done
+[0.913s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.280s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.462s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.724s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.732s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.759s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.792s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.829s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.077s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.090s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.374s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.430s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.535s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.551s] -- Looking for pthread.h
+[2.747s] -- Looking for pthread.h - found
+[2.747s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.988s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.990s] -- Found Threads: TRUE  
+[3.166s] -- Found OpenCV: /usr (found version "4.5.4") 
+[3.166s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.247s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.279s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.289s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.290s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.294s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.294s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.349s] -- Found PythonExtra: .so  
+[4.420s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/stereo_image_proc` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[4.432s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.441s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.441s] -- Configured cppcheck include dirs: /home/bryan/Workspace/ros2_ws/image_pipeline/stereo_image_proc/include
+[4.441s] -- Configured cppcheck exclude dirs and/or files: 
+[4.480s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.480s] -- Configured cpplint exclude dirs and/or files: 
+[4.480s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.480s] -- Added test 'lint_cmake' to check CMake code style
+[4.481s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.481s] -- Added test 'uncrustify' to check C / C++ code style
+[4.481s] -- Configured uncrustify additional arguments: 
+[4.481s] -- Added test 'xmllint' to check XML markup files
+[4.481s] -- Configuring done
+[4.520s] -- Generating done
+[4.534s] -- Build files have been written to: /home/bryan/Workspace/ros2_ws/build/stereo_image_proc
+[4.554s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/lib:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/lib:/home/bryan/Workspace/ros2_ws/install/image_geometry/lib:/home/bryan/Workspace/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/bin:${PATH} PYTHONPATH=/home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/bryan/Workspace/ros2_ws/image_pipeline/stereo_image_proc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bryan/Workspace/ros2_ws/install/stereo_image_proc
+[4.565s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/stereo_image_proc': AMENT_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/lib:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/lib:/home/bryan/Workspace/ros2_ws/install/image_geometry/lib:/home/bryan/Workspace/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/bin:${PATH} PYTHONPATH=/home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/stereo_image_proc -- -j3 -l3
+[4.700s] [ 12%] [32mBuilding CXX object CMakeFiles/stereo_image_proc.dir/src/stereo_image_proc/stereo_processor.cpp.o[0m
+[6.894s] [ 25%] [32mBuilding CXX object CMakeFiles/stereo_image_proc.dir/src/stereo_image_proc/disparity_node.cpp.o[0m
+[28.582s] [ 37%] [32mBuilding CXX object CMakeFiles/stereo_image_proc.dir/src/stereo_image_proc/point_cloud_node.cpp.o[0m
+[53.388s] [ 50%] [32m[1mLinking CXX shared library libstereo_image_proc.so[0m
+[56.768s] [ 50%] Built target stereo_image_proc
+[56.769s] [ 62%] [32mBuilding CXX object CMakeFiles/point_cloud_node.dir/rclcpp_components/node_main_point_cloud_node.cpp.o[0m
+[61.534s] [ 75%] [32m[1mLinking CXX executable point_cloud_node[0m
+[61.753s] [ 75%] Built target point_cloud_node
+[61.825s] [ 87%] [32mBuilding CXX object CMakeFiles/disparity_node.dir/rclcpp_components/node_main_disparity_node.cpp.o[0m
+[66.964s] [100%] [32m[1mLinking CXX executable disparity_node[0m
+[67.218s] [100%] Built target disparity_node
+[67.259s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/lib:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/lib:/home/bryan/Workspace/ros2_ws/install/image_geometry/lib:/home/bryan/Workspace/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/bin:${PATH} PYTHONPATH=/home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bryan/Workspace/ros2_ws/build/stereo_image_proc -- -j3 -l3
+[67.267s] Invoking command in '/home/bryan/Workspace/ros2_ws/build/stereo_image_proc': AMENT_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/lib:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/lib:/home/bryan/Workspace/ros2_ws/install/image_geometry/lib:/home/bryan/Workspace/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/bin:${PATH} PYTHONPATH=/home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bryan/Workspace/ros2_ws/build/stereo_image_proc
+[67.279s] -- Install configuration: ""
+[67.281s] -- Execute custom install script
+[67.283s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/lib/stereo_image_proc/disparity_node
+[67.307s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/lib/stereo_image_proc/point_cloud_node
+[67.324s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/include/stereo_image_proc/stereo_processor.hpp
+[67.345s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/environment/library_path.sh
+[67.362s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/environment/library_path.dsv
+[67.384s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/lib/libstereo_image_proc.so
+[67.402s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/launch/stereo_image_proc.launch.py
+[67.426s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/ament_index/resource_index/package_run_dependencies/stereo_image_proc
+[67.448s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/ament_index/resource_index/parent_prefix_path/stereo_image_proc
+[67.466s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/environment/ament_prefix_path.sh
+[67.488s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/environment/ament_prefix_path.dsv
+[67.508s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/environment/path.sh
+[67.544s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/environment/path.dsv
+[67.559s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/local_setup.bash
+[67.574s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/local_setup.sh
+[67.596s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/local_setup.zsh
+[67.613s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/local_setup.dsv
+[67.656s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/package.dsv
+[67.672s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/ament_index/resource_index/packages/stereo_image_proc
+[67.694s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/ament_index/resource_index/rclcpp_components/stereo_image_proc
+[67.714s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[67.749s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[67.771s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[67.794s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/stereo_image_procConfig.cmake
+[67.815s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/stereo_image_procConfig-version.cmake
+[67.856s] -- Symlinking: /home/bryan/Workspace/ros2_ws/install/stereo_image_proc/share/stereo_image_proc/package.xml
+[67.886s] Invoked command in '/home/bryan/Workspace/ros2_ws/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline:/home/bryan/Workspace/ros2_ws/install/image_geometry:/home/bryan/Workspace/ros2_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/lib:/home/bryan/Workspace/ros2_ws/install/tracetools_image_pipeline/lib:/home/bryan/Workspace/ros2_ws/install/image_geometry/lib:/home/bryan/Workspace/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PATH=/home/bryan/Workspace/ros2_ws/install/image_proc/bin:${PATH} PYTHONPATH=/home/bryan/Workspace/ros2_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/bryan/Workspace/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bryan/Workspace/ros2_ws/build/stereo_image_proc

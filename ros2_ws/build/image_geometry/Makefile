@@ -198,17 +198,17 @@ image_geometry_uninstall/fast:
 .PHONY : image_geometry_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_image_geometry
+# Target rules for targets named ament_cmake_python_symlink_image_geometry
 
 # Build rule for target.
-ament_cmake_python_copy_image_geometry: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_image_geometry
-.PHONY : ament_cmake_python_copy_image_geometry
+ament_cmake_python_symlink_image_geometry: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_image_geometry
+.PHONY : ament_cmake_python_symlink_image_geometry
 
 # fast build rule for target.
-ament_cmake_python_copy_image_geometry/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_image_geometry.dir/build.make CMakeFiles/ament_cmake_python_copy_image_geometry.dir/build
-.PHONY : ament_cmake_python_copy_image_geometry/fast
+ament_cmake_python_symlink_image_geometry/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/build.make CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/build
+.PHONY : ament_cmake_python_symlink_image_geometry/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_image_geometry_egg
@@ -361,7 +361,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_image_geometry_egg"
-	@echo "... ament_cmake_python_copy_image_geometry"
+	@echo "... ament_cmake_python_symlink_image_geometry"
 	@echo "... image_geometry_uninstall"
 	@echo "... uninstall"
 	@echo "... gtest"

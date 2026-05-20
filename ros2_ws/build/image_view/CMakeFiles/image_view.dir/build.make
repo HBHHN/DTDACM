@@ -95,7 +95,7 @@ image_view: CMakeFiles/image_view.dir/build.make
 image_view: libimage_view_nodes.so
 image_view: /opt/ros/humble/lib/libcamera_calibration_parsers.so
 image_view: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
-image_view: /opt/ros/humble/lib/libcv_bridge.so
+image_view: /home/bryan/Workspace/ros2_ws/install/cv_bridge/lib/libcv_bridge.so
 image_view: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 image_view: /opt/ros/humble/lib/libmessage_filters.so
 image_view: /opt/ros/humble/lib/libcomponent_manager.so
