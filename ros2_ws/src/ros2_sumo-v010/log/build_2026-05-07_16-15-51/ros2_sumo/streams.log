@@ -1,0 +1,54 @@
+[0.642s] Invoking command in '/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main': PYTHONPATH=/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ros2_sumo build --build-base /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build install --record /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/install.log --single-version-externally-managed install_data
+[0.880s] running egg_info
+[0.881s] creating ../build/ros2_sumo/ros2_sumo.egg-info
+[0.881s] writing ../build/ros2_sumo/ros2_sumo.egg-info/PKG-INFO
+[0.881s] writing dependency_links to ../build/ros2_sumo/ros2_sumo.egg-info/dependency_links.txt
+[0.881s] writing entry points to ../build/ros2_sumo/ros2_sumo.egg-info/entry_points.txt
+[0.881s] writing requirements to ../build/ros2_sumo/ros2_sumo.egg-info/requires.txt
+[0.881s] writing top-level names to ../build/ros2_sumo/ros2_sumo.egg-info/top_level.txt
+[0.881s] writing manifest file '../build/ros2_sumo/ros2_sumo.egg-info/SOURCES.txt'
+[0.882s] reading manifest file '../build/ros2_sumo/ros2_sumo.egg-info/SOURCES.txt'
+[0.883s] writing manifest file '../build/ros2_sumo/ros2_sumo.egg-info/SOURCES.txt'
+[0.883s] running build
+[0.883s] running build_py
+[0.883s] creating /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build
+[0.883s] creating /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build/lib
+[0.883s] creating /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build/lib/ros2_sumo
+[0.884s] copying ros2_sumo/vehicle_publisher.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build/lib/ros2_sumo
+[0.884s] copying ros2_sumo/__init__.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build/lib/ros2_sumo
+[0.884s] copying ros2_sumo/arduino_readwrite.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build/lib/ros2_sumo
+[0.884s] copying ros2_sumo/multi_sim_publisher.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build/lib/ros2_sumo
+[0.884s] copying ros2_sumo/traffic_lights_publisher.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build/lib/ros2_sumo
+[0.884s] running install
+[0.884s] running install_lib
+[0.885s] creating /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo
+[0.885s] copying /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build/lib/ros2_sumo/vehicle_publisher.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo
+[0.885s] copying /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build/lib/ros2_sumo/__init__.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo
+[0.885s] copying /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build/lib/ros2_sumo/arduino_readwrite.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo
+[0.886s] copying /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build/lib/ros2_sumo/multi_sim_publisher.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo
+[0.886s] copying /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build/lib/ros2_sumo/traffic_lights_publisher.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo
+[0.886s] byte-compiling /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo/vehicle_publisher.py to vehicle_publisher.cpython-310.pyc
+[0.887s] byte-compiling /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo/__init__.py to __init__.cpython-310.pyc
+[0.888s] byte-compiling /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo/arduino_readwrite.py to arduino_readwrite.cpython-310.pyc
+[0.888s] byte-compiling /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo/multi_sim_publisher.py to multi_sim_publisher.cpython-310.pyc
+[0.889s] byte-compiling /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo/traffic_lights_publisher.py to traffic_lights_publisher.cpython-310.pyc
+[0.890s] running install_data
+[0.890s] creating /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/share/ament_index
+[0.891s] creating /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/share/ament_index/resource_index
+[0.891s] creating /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/share/ament_index/resource_index/packages
+[0.891s] copying resource/ros2_sumo -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/share/ament_index/resource_index/packages
+[0.891s] copying package.xml -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/share/ros2_sumo
+[0.891s] creating /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/share/ros2_sumo/launch
+[0.891s] copying launch/vehicle_publisher_with_rviz2_launch.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/share/ros2_sumo/launch
+[0.891s] creating /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/share/ros2_sumo/config
+[0.891s] copying config/vehicle_publisher_rviz_config.rviz -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/share/ros2_sumo/config
+[0.891s] creating /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/share/ros2_sumo/scenarios
+[0.891s] running install_egg_info
+[0.894s] Copying ../build/ros2_sumo/ros2_sumo.egg-info to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo-0.1.0-py3.10.egg-info
+[0.895s] running install_scripts
+[0.916s] Installing arduino_read_write script to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/ros2_sumo
+[0.916s] Installing multi_sim_publisher script to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/ros2_sumo
+[0.916s] Installing traffic_lights_publisher script to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/ros2_sumo
+[0.916s] Installing vehicle_publisher script to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/ros2_sumo
+[0.916s] writing list of installed files to '/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/install.log'
+[0.944s] Invoked command in '/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main' returned '0': PYTHONPATH=/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/install/ros2_sumo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ros2_sumo build --build-base /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/build install --record /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/build/ros2_sumo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-14T14:13:43.039990+01:00 by Eclipse SUMO netconvert 1.26.0
+-->
+
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <!-- Read OSM-network from path &apos;FILE(s)&apos; -->
+        <osm-files value="map.osm"/>
+
+    </input>
+
+    <output>
+        <!-- The generated net will be written to FILE -->
+        <output-file value="techcampus.net.xml"/>
+
+    </output>
+
+    <processing>
+        <!-- Replace nodes which only define edge geometry by geometry points (joins edges) -->
+        <geometry.remove value="TRUE"/>
+
+    </processing>
+
+    <tls_building>
+        <!-- Does not instantiate traffic lights at geometry-like nodes loaded from other formats than plain-XML -->
+        <tls.discard-simple value="TRUE"/>
+
+        <!-- Tries to cluster tls-controlled nodes -->
+        <tls.join value="TRUE"/>
+
+        <!-- Interprets tls nodes surrounding an intersection as signal positions for a larger TLS. This is typical pattern for OSM-derived networks -->
+        <tls.guess-signals value="TRUE"/>
+
+        <!-- TLSs with unspecified type will use STR as their algorithm -->
+        <tls.default-type value="actuated"/>
+
+    </tls_building>
+
+    <ramp_guessing>
+        <!-- Enable ramp-guessing -->
+        <ramps.guess value="TRUE"/>
+
+    </ramp_guessing>
+
+    <junctions>
+        <!-- Joins junctions that are close to each other (recommended for OSM import) -->
+        <junctions.join value="TRUE"/>
+
+    </junctions>
+
+    <report>
+        <!-- Switches to verbose output -->
+        <verbose value="TRUE"/>
+
+        <!-- Writes all messages to FILE (implies verbose) -->
+        <log value="log/netconvert.log"/>
+
+    </report>
+
+</netconvertConfiguration>

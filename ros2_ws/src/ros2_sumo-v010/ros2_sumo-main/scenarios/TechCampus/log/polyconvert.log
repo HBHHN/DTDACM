@@ -1,0 +1,4 @@
+Parsing network projection from 'techcampus.net.xml' ... done (4ms).
+Parsing nodes from osm-file 'map.osm' ... done (58ms).
+Parsing relations from osm-file 'map.osm' ... done (48ms).
+Parsing edges from osm-file 'map.osm' ... done (51ms).

@@ -1,0 +1,6 @@
+[console_scripts]
+arduino_read_write = ros2_sumo.arduino_read_write:main
+multi_sim_publisher = ros2_sumo.multi_sim_publisher:main
+traffic_lights_publisher = ros2_sumo.traffic_lights_publisher:main
+vehicle_publisher = ros2_sumo.vehicle_publisher:main
+

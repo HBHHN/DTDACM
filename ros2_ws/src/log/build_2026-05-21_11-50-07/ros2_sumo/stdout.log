@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating ros2_sumo.egg-info
+writing ros2_sumo.egg-info/PKG-INFO
+writing dependency_links to ros2_sumo.egg-info/dependency_links.txt
+writing entry points to ros2_sumo.egg-info/entry_points.txt
+writing requirements to ros2_sumo.egg-info/requires.txt
+writing top-level names to ros2_sumo.egg-info/top_level.txt
+writing manifest file 'ros2_sumo.egg-info/SOURCES.txt'
+reading manifest file 'ros2_sumo.egg-info/SOURCES.txt'
+writing manifest file 'ros2_sumo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/lib/python3.10/site-packages/ros2-sumo.egg-link (link to .)
+Installing arduino_read_write script to /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/lib/ros2_sumo
+Installing multi_sim_publisher script to /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/lib/ros2_sumo
+Installing traffic_lights_publisher script to /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/lib/ros2_sumo
+Installing vehicle_publisher script to /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/lib/ros2_sumo
+
+Installed /home/hannah/Workspace/ros2_ws/src/build/ros2_sumo
+running symlink_data
+creating /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/share/ament_index
+creating /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/share/ament_index/resource_index
+creating /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/share/ament_index/resource_index/packages
+symbolically linking /home/hannah/Workspace/ros2_ws/src/build/ros2_sumo/resource/ros2_sumo -> /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/share/ament_index/resource_index/packages
+symbolically linking /home/hannah/Workspace/ros2_ws/src/build/ros2_sumo/package.xml -> /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/share/ros2_sumo
+creating /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/share/ros2_sumo/launch
+symbolically linking /home/hannah/Workspace/ros2_ws/src/build/ros2_sumo/launch/vehicle_publisher_with_rviz2_launch.py -> /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/share/ros2_sumo/launch
+creating /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/share/ros2_sumo/config
+symbolically linking /home/hannah/Workspace/ros2_ws/src/build/ros2_sumo/config/vehicle_publisher_rviz_config.rviz -> /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/share/ros2_sumo/config
+creating /home/hannah/Workspace/ros2_ws/src/install/ros2_sumo/share/ros2_sumo/scenarios

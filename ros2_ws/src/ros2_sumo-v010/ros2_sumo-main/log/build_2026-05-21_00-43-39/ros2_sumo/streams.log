@@ -1,0 +1,27 @@
+[0.991s] Invoking command in '/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main': PYTHONPATH=/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ros2_sumo build --build-base /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/build install --record /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/install.log --single-version-externally-managed install_data
+[1.388s] running egg_info
+[1.390s] writing build/ros2_sumo/ros2_sumo.egg-info/PKG-INFO
+[1.392s] writing dependency_links to build/ros2_sumo/ros2_sumo.egg-info/dependency_links.txt
+[1.392s] writing entry points to build/ros2_sumo/ros2_sumo.egg-info/entry_points.txt
+[1.392s] writing requirements to build/ros2_sumo/ros2_sumo.egg-info/requires.txt
+[1.393s] writing top-level names to build/ros2_sumo/ros2_sumo.egg-info/top_level.txt
+[1.396s] reading manifest file 'build/ros2_sumo/ros2_sumo.egg-info/SOURCES.txt'
+[1.398s] writing manifest file 'build/ros2_sumo/ros2_sumo.egg-info/SOURCES.txt'
+[1.398s] running build
+[1.399s] running build_py
+[1.399s] copying ros2_sumo/traffic_lights_publisher.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/build/lib/ros2_sumo
+[1.437s] running install
+[1.438s] running install_lib
+[1.440s] copying /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/build/lib/ros2_sumo/traffic_lights_publisher.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo
+[1.443s] byte-compiling /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo/traffic_lights_publisher.py to traffic_lights_publisher.cpython-310.pyc
+[1.443s] running install_data
+[1.443s] running install_egg_info
+[1.447s] removing '/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo-0.1.0-py3.10.egg-info' (and everything under it)
+[1.450s] Copying build/ros2_sumo/ros2_sumo.egg-info to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo-0.1.0-py3.10.egg-info
+[1.450s] running install_scripts
+[1.481s] Installing arduino_read_write script to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/ros2_sumo
+[1.482s] Installing multi_sim_publisher script to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/ros2_sumo
+[1.482s] Installing traffic_lights_publisher script to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/ros2_sumo
+[1.485s] Installing vehicle_publisher script to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/ros2_sumo
+[1.485s] writing list of installed files to '/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/install.log'
+[1.527s] Invoked command in '/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main' returned '0': PYTHONPATH=/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ros2_sumo build --build-base /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/build install --record /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/install.log --single-version-externally-managed install_data

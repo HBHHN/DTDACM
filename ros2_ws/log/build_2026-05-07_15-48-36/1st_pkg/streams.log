@@ -1,0 +1,16 @@
+[0.926s] Invoking command in '/home/hannah/Workspace/ros2_ws/build/1st_pkg': PYTHONPATH=/home/hannah/Workspace/ros2_ws/build/1st_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hannah/Workspace/ros2_ws/install/1st_pkg/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hannah/Workspace/ros2_ws/build/1st_pkg/build --no-deps symlink_data
+[1.163s] running develop
+[1.272s] running egg_info
+[1.273s] writing 1st_pkg.egg-info/PKG-INFO
+[1.273s] writing dependency_links to 1st_pkg.egg-info/dependency_links.txt
+[1.273s] writing entry points to 1st_pkg.egg-info/entry_points.txt
+[1.273s] writing requirements to 1st_pkg.egg-info/requires.txt
+[1.273s] writing top-level names to 1st_pkg.egg-info/top_level.txt
+[1.277s] reading manifest file '1st_pkg.egg-info/SOURCES.txt'
+[1.278s] writing manifest file '1st_pkg.egg-info/SOURCES.txt'
+[1.280s] running build_ext
+[1.280s] Creating /home/hannah/Workspace/ros2_ws/install/1st_pkg/lib/python3.10/site-packages/1st-pkg.egg-link (link to .)
+[1.282s] 
+[1.282s] Installed /home/hannah/Workspace/ros2_ws/build/1st_pkg
+[1.283s] running symlink_data
+[1.336s] Invoked command in '/home/hannah/Workspace/ros2_ws/build/1st_pkg' returned '0': PYTHONPATH=/home/hannah/Workspace/ros2_ws/build/1st_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hannah/Workspace/ros2_ws/install/1st_pkg/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hannah/Workspace/ros2_ws/build/1st_pkg/build --no-deps symlink_data

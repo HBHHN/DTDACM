@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-15 09:36:24.540729 by Eclipse SUMO randomTrips.py v1.26.0
+<configuration>
+    <net-file value="techcampus.net.xml"/>
+    <output-trip-file value="trailer_trips.xml"/>
+    <route-file value="trailer_routes.rou.xml"/>
+    <prefix value="trailer"/>
+    <trip-attributes value="color=&quot;115,211,230&quot;"/>
+    <vehicle-class value="delivery"/>
+    <min-distance value="1000.0"/>
+    <verbose value="True"/>
+    <period value="150.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="trailer_delivery" vClass="delivery" color="115,211,230"/>
+    <trip id="trailer0" depart="0.00" from="124066290#1" to="-40236777" type="trailer_delivery"/>
+    <trip id="trailer1" depart="150.00" from="-114325585#5" to="-110565111#0" type="trailer_delivery"/>
+    <trip id="trailer2" depart="300.00" from="-114325583#1" to="110565091" type="trailer_delivery"/>
+    <trip id="trailer3" depart="450.00" from="-114125066#3" to="142707482#2" type="trailer_delivery"/>
+    <trip id="trailer4" depart="600.00" from="114325583#0" to="219525485" type="trailer_delivery"/>
+    <trip id="trailer5" depart="750.00" from="40236771#10" to="-114125066#2" type="trailer_delivery"/>
+    <trip id="trailer6" depart="900.00" from="124066290#2" to="-238838053#8" type="trailer_delivery"/>
+    <trip id="trailer7" depart="1050.00" from="-114125071#3" to="40236781" type="trailer_delivery"/>
+    <trip id="trailer8" depart="1200.00" from="-238838061#1" to="-114325581#1" type="trailer_delivery"/>
+    <trip id="trailer9" depart="1350.00" from="30754330#0" to="40236771#4" type="trailer_delivery"/>
+    <trip id="trailer10" depart="1500.00" from="-122993000#0" to="-61808771#0" type="trailer_delivery"/>
+    <trip id="trailer11" depart="1650.00" from="-114325583#0" to="110565114#4" type="trailer_delivery"/>
+    <trip id="trailer12" depart="1800.00" from="124066288#2" to="-40236771#15" type="trailer_delivery"/>
+    <trip id="trailer13" depart="1950.00" from="114325583#0" to="518509658#2" type="trailer_delivery"/>
+    <trip id="trailer14" depart="2100.00" from="-30754329#0" to="-40236769#1" type="trailer_delivery"/>
+    <trip id="trailer15" depart="2250.00" from="40236771#18" to="302760179#4" type="trailer_delivery"/>
+    <trip id="trailer16" depart="2400.00" from="40236771#13" to="124066290#1" type="trailer_delivery"/>
+    <trip id="trailer17" depart="2550.00" from="124066290#0" to="40235098#2" type="trailer_delivery"/>
+    <trip id="trailer18" depart="2700.00" from="-302760179#2" to="40236771#17" type="trailer_delivery"/>
+    <trip id="trailer19" depart="2850.00" from="-114325583#1" to="238838052#10" type="trailer_delivery"/>
+    <trip id="trailer20" depart="3000.00" from="-114125071#3" to="142707482#0" type="trailer_delivery"/>
+    <trip id="trailer21" depart="3150.00" from="238838052#10" to="114325585#4" type="trailer_delivery"/>
+    <trip id="trailer22" depart="3300.00" from="-30754329#2" to="40236769#3" type="trailer_delivery"/>
+    <trip id="trailer23" depart="3450.00" from="-114125066#1" to="142707482#2" type="trailer_delivery"/>
+</routes>

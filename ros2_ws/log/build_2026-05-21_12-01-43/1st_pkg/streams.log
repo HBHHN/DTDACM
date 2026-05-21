@@ -1,0 +1,20 @@
+[1.927s] Invoking command in '/home/hannah/Workspace/ros2_ws/1st_pkg': PYTHONPATH=/home/hannah/Workspace/ros2_ws/build/1st_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hannah/Workspace/ros2_ws/install/1st_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/1st_pkg build --build-base /home/hannah/Workspace/ros2_ws/build/1st_pkg/build install --record /home/hannah/Workspace/ros2_ws/build/1st_pkg/install.log --single-version-externally-managed install_data
+[2.533s] running egg_info
+[2.536s] writing ../build/1st_pkg/1st_pkg.egg-info/PKG-INFO
+[2.539s] writing dependency_links to ../build/1st_pkg/1st_pkg.egg-info/dependency_links.txt
+[2.540s] writing entry points to ../build/1st_pkg/1st_pkg.egg-info/entry_points.txt
+[2.542s] writing requirements to ../build/1st_pkg/1st_pkg.egg-info/requires.txt
+[2.542s] writing top-level names to ../build/1st_pkg/1st_pkg.egg-info/top_level.txt
+[2.552s] reading manifest file '../build/1st_pkg/1st_pkg.egg-info/SOURCES.txt'
+[2.556s] writing manifest file '../build/1st_pkg/1st_pkg.egg-info/SOURCES.txt'
+[2.559s] running build
+[2.559s] running build_py
+[2.559s] running install
+[2.562s] running install_lib
+[2.573s] running install_data
+[2.577s] running install_egg_info
+[2.586s] removing '/home/hannah/Workspace/ros2_ws/install/1st_pkg/lib/python3.10/site-packages/1st_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.589s] Copying ../build/1st_pkg/1st_pkg.egg-info to /home/hannah/Workspace/ros2_ws/install/1st_pkg/lib/python3.10/site-packages/1st_pkg-0.0.0-py3.10.egg-info
+[2.595s] running install_scripts
+[2.651s] writing list of installed files to '/home/hannah/Workspace/ros2_ws/build/1st_pkg/install.log'
+[2.734s] Invoked command in '/home/hannah/Workspace/ros2_ws/1st_pkg' returned '0': PYTHONPATH=/home/hannah/Workspace/ros2_ws/build/1st_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hannah/Workspace/ros2_ws/install/1st_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/1st_pkg build --build-base /home/hannah/Workspace/ros2_ws/build/1st_pkg/build install --record /home/hannah/Workspace/ros2_ws/build/1st_pkg/install.log --single-version-externally-managed install_data

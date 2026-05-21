@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="techcampus.net.xml"/>
+        <route-files value="pass_routes.rou.xml,bus_routes.rou.xml,truck_routes.rou.xml,trailer_routes.rou.xml"/>
+        <additional-files value="techcampus.poly.xml,techcampus.poi.xml,techcampus.tllogic.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <gui_only>
+        <gui-settings-file value="tiles/settings.xml"/>
+        <delay value="1000.0"/>
+        <start value="false"/>
+        <tls.actuated.show-detectors value="true"/>
+    </gui_only>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>

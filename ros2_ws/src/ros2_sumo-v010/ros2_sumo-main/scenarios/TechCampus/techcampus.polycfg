@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-14T14:14:47.945134+01:00 by Eclipse SUMO polyconvert 1.26.0
+-->
+
+<polyconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/polyconvertConfiguration.xsd">
+
+    <input>
+        <!-- Loads SUMO-network FILE as reference to offset and projection -->
+        <net-file value="techcampus.net.xml"/>
+
+        <!-- Reads pois from FILE assuming they&apos;re coded in OSM -->
+        <osm-files value="map.osm"/>
+
+        <!-- Reads types from FILE -->
+        <type-file value="/usr/share/sumo/data/typemap/osmPolyconvert.typ.xml"/>
+
+    </input>
+
+    <output>
+        <!-- Write generated polygons/pois to FILE -->
+        <output-file value="techcampus.poly.xml"/>
+
+    </output>
+
+    <report>
+        <!-- Switches to verbose output -->
+        <verbose value="TRUE"/>
+
+        <!-- Set schema validation scheme of XML inputs (&quot;never&quot;, &quot;local&quot;, &quot;auto&quot; or &quot;always&quot;) -->
+        <xml-validation value="auto"/>
+
+        <!-- Writes all messages to FILE (implies verbose) -->
+        <log value="log/polyconvert.log"/>
+
+    </report>
+
+</polyconvertConfiguration>

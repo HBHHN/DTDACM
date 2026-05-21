@@ -1,0 +1,28 @@
+running egg_info
+writing build/ros2_sumo/ros2_sumo.egg-info/PKG-INFO
+writing dependency_links to build/ros2_sumo/ros2_sumo.egg-info/dependency_links.txt
+writing entry points to build/ros2_sumo/ros2_sumo.egg-info/entry_points.txt
+writing requirements to build/ros2_sumo/ros2_sumo.egg-info/requires.txt
+writing top-level names to build/ros2_sumo/ros2_sumo.egg-info/top_level.txt
+reading manifest file 'build/ros2_sumo/ros2_sumo.egg-info/SOURCES.txt'
+writing manifest file 'build/ros2_sumo/ros2_sumo.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2_sumo/vehicle_publisher.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/build/lib/ros2_sumo
+copying ros2_sumo/traffic_lights_publisher.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/build/lib/ros2_sumo
+running install
+running install_lib
+copying /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/build/lib/ros2_sumo/vehicle_publisher.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo
+copying /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/build/lib/ros2_sumo/traffic_lights_publisher.py -> /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo
+byte-compiling /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo/vehicle_publisher.py to vehicle_publisher.cpython-310.pyc
+byte-compiling /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo/traffic_lights_publisher.py to traffic_lights_publisher.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo-0.1.0-py3.10.egg-info' (and everything under it)
+Copying build/ros2_sumo/ros2_sumo.egg-info to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/python3.10/site-packages/ros2_sumo-0.1.0-py3.10.egg-info
+running install_scripts
+Installing arduino_read_write script to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/ros2_sumo
+Installing multi_sim_publisher script to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/ros2_sumo
+Installing traffic_lights_publisher script to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/ros2_sumo
+Installing vehicle_publisher script to /home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/install/ros2_sumo/lib/ros2_sumo
+writing list of installed files to '/home/hannah/Workspace/ros2_ws/src/ros2_sumo-v010/ros2_sumo-main/build/ros2_sumo/install.log'

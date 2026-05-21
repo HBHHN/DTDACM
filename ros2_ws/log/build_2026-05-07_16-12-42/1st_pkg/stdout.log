@@ -1,0 +1,28 @@
+running develop
+Removing /home/hannah/Workspace/ros2_ws/install/1st_pkg/lib/python3.10/site-packages/1st-pkg.egg-link (link to .)
+running egg_info
+writing ../build/1st_pkg/1st_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/1st_pkg/1st_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/1st_pkg/1st_pkg.egg-info/entry_points.txt
+writing requirements to ../build/1st_pkg/1st_pkg.egg-info/requires.txt
+writing top-level names to ../build/1st_pkg/1st_pkg.egg-info/top_level.txt
+reading manifest file '../build/1st_pkg/1st_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/1st_pkg/1st_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hannah/Workspace/ros2_ws/build/1st_pkg/build
+creating /home/hannah/Workspace/ros2_ws/build/1st_pkg/build/lib
+creating /home/hannah/Workspace/ros2_ws/build/1st_pkg/build/lib/1st_pkg
+copying 1st_pkg/__init__.py -> /home/hannah/Workspace/ros2_ws/build/1st_pkg/build/lib/1st_pkg
+running install
+running install_lib
+creating /home/hannah/Workspace/ros2_ws/install/1st_pkg/lib/python3.10/site-packages/1st_pkg
+copying /home/hannah/Workspace/ros2_ws/build/1st_pkg/build/lib/1st_pkg/__init__.py -> /home/hannah/Workspace/ros2_ws/install/1st_pkg/lib/python3.10/site-packages/1st_pkg
+byte-compiling /home/hannah/Workspace/ros2_ws/install/1st_pkg/lib/python3.10/site-packages/1st_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/1st_pkg -> /home/hannah/Workspace/ros2_ws/install/1st_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/hannah/Workspace/ros2_ws/install/1st_pkg/share/1st_pkg
+running install_egg_info
+Copying ../build/1st_pkg/1st_pkg.egg-info to /home/hannah/Workspace/ros2_ws/install/1st_pkg/lib/python3.10/site-packages/1st_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/hannah/Workspace/ros2_ws/build/1st_pkg/install.log'

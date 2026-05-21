@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="autobahn.net.xml"/>
+        <route-files value="autobahn.rou_1.xml"/>
+        <gui-settings-file value="autobahn.view.xml"/>
+        <additional-files value="autobahn.poi.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+        <step-length value="0.05"/>
+    </time>
+
+</configuration>
